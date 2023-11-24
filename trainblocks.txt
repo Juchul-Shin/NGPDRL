@@ -1,0 +1,1147 @@
+blocksmulti
+
+##################################
+Starting training on blocksmulti
+##################################
+
+iteration: 0. success rate: 0.03. Total 17. Time: 17.422
+evaluating model:
+evaluation success rate: 0.0. time: 26.356
+iteration: 1. success rate: 0.0. Total 100. Time: 16.183
+iteration: 2. success rate: 0.04. Total 100. Time: 16.3
+iteration: 3. success rate: 0.04. Total 100. Time: 18.241
+iteration: 4. success rate: 0.02. Total 100. Time: 18.119
+iteration: 5. success rate: 0.04. Total 100. Time: 16.778
+iteration: 6. success rate: 0.0. Total 100. Time: 18.703
+iteration: 7. success rate: 0.04. Total 100. Time: 19.781
+iteration: 8. success rate: 0.01. Total 100. Time: 16.973
+iteration: 9. success rate: 0.03. Total 100. Time: 26.386
+iteration: 10. success rate: 0.02. Total 100. Time: 26.238
+iteration: 11. success rate: 0.02. Total 100. Time: 25.145
+iteration: 12. success rate: 0.0. Total 100. Time: 24.907
+iteration: 13. success rate: 0.03. Total 100. Time: 25.64
+iteration: 14. success rate: 0.03. Total 100. Time: 25.933
+iteration: 15. success rate: 0.01. Total 100. Time: 25.12
+evaluating model:
+evaluation success rate: 0.0. time: 26.572
+iteration: 16. success rate: 0.01. Total 100. Time: 25.987
+iteration: 17. success rate: 0.03. Total 100. Time: 24.703
+iteration: 18. success rate: 0.01. Total 100. Time: 26.212
+iteration: 19. success rate: 0.02. Total 100. Time: 26.256
+iteration: 20. success rate: 0.02. Total 100. Time: 26.295
+iteration: 21. success rate: 0.02. Total 100. Time: 25.011
+iteration: 22. success rate: 0.01. Total 100. Time: 26.053
+iteration: 23. success rate: 0.02. Total 100. Time: 26.926
+iteration: 24. success rate: 0.02. Total 100. Time: 22.781
+iteration: 25. success rate: 0.05. Total 100. Time: 16.796
+iteration: 26. success rate: 0.04. Total 100. Time: 14.937
+iteration: 27. success rate: 0.12. Total 100. Time: 15.484
+iteration: 28. success rate: 0.04. Total 100. Time: 18.641
+iteration: 29. success rate: 0.03. Total 100. Time: 25.663
+iteration: 30. success rate: 0.01. Total 100. Time: 26.233
+evaluating model:
+evaluation success rate: 0.0. time: 27.075
+iteration: 31. success rate: 0.02. Total 100. Time: 26.062
+iteration: 32. success rate: 0.0. Total 100. Time: 26.249
+ 
+iteration: 33. success rate: 0.02. Total 100. Time: 27.545
+iteration: 34. success rate: 0.01. Total 100. Time: 26.28
+iteration: 35. success rate: 0.04. Total 100. Time: 26.463
+iteration: 36. success rate: 0.01. Total 100. Time: 26.497
+iteration: 37. success rate: 0.04. Total 100. Time: 25.695
+iteration: 38. success rate: 0.01. Total 100. Time: 26.435
+iteration: 39. success rate: 0.01. Total 100. Time: 27.357
+iteration: 40. success rate: 0.01. Total 100. Time: 25.984
+iteration: 41. success rate: 0.02. Total 100. Time: 25.44
+iteration: 42. success rate: 0.01. Total 100. Time: 25.001
+iteration: 43. success rate: 0.01. Total 100. Time: 25.184
+iteration: 44. success rate: 0.03. Total 100. Time: 25.72
+iteration: 45. success rate: 0.01. Total 100. Time: 24.987
+evaluating model:
+evaluation success rate: 0.0. time: 26.922
+iteration: 46. success rate: 0.03. Total 100. Time: 25.073
+iteration: 47. success rate: 0.03. Total 100. Time: 24.969
+iteration: 48. success rate: 0.01. Total 100. Time: 26.124
+iteration: 49. success rate: 0.0. Total 100. Time: 26.21
+iteration: 50. success rate: 0.01. Total 100. Time: 26.276
+iteration: 51. success rate: 0.02. Total 100. Time: 26.021
+iteration: 52. success rate: 0.0. Total 100. Time: 25.714
+iteration: 53. success rate: 0.02. Total 100. Time: 25.642
+iteration: 54. success rate: 0.03. Total 100. Time: 25.549
+iteration: 55. success rate: 0.04. Total 100. Time: 24.981
+iteration: 56. success rate: 0.03. Total 100. Time: 21.837
+iteration: 57. success rate: 0.12. Total 100. Time: 14.84
+iteration: 58. success rate: 0.22. Total 100. Time: 14.653
+iteration: 59. success rate: 0.13. Total 100. Time: 15.91
+iteration: 60. success rate: 0.26. Total 100. Time: 15.054
+evaluating model:
+evaluation success rate: 0.0. time: 28.535
+iteration: 61. success rate: 0.23. Total 100. Time: 15.529
+iteration: 62. success rate: 0.18. Total 100. Time: 16.739
+iteration: 63. success rate: 0.22. Total 100. Time: 23.659
+iteration: 64. success rate: 0.32. Total 100. Time: 14.447
+iteration: 65. success rate: 0.33. Total 100. Time: 15.142
+iteration: 66. success rate: 0.3. Total 100. Time: 14.904
+iteration: 67. success rate: 0.34. Total 100. Time: 18.135
+iteration: 68. success rate: 0.36. Total 100. Time: 17.901
+iteration: 69. success rate: 0.39. Total 100. Time: 19.054
+iteration: 70. success rate: 0.37. Total 100. Time: 19.27
+iteration: 71. success rate: 0.41. Total 100. Time: 25.348
+iteration: 72. success rate: 0.45. Total 100. Time: 22.365
+iteration: 73. success rate: 0.4. Total 100. Time: 14.471
+iteration: 74. success rate: 0.38. Total 100. Time: 24.226
+iteration: 75. success rate: 0.4. Total 100. Time: 20.626
+evaluating model:
+evaluation success rate: 0.0. time: 28.255
+iteration: 76. success rate: 0.38. Total 100. Time: 16.267
+iteration: 77. success rate: 0.51. Total 100. Time: 13.585
+iteration: 78. success rate: 0.59. Total 100. Time: 12.749
+iteration: 79. success rate: 0.65. Total 100. Time: 12.531
+iteration: 80. success rate: 0.72. Total 100. Time: 12.68
+iteration: 81. success rate: 0.71. Total 100. Time: 12.289
+iteration: 82. success rate: 0.82. Total 100. Time: 11.696
+iteration: 83. success rate: 0.86. Total 100. Time: 11.715
+iteration: 84. success rate: 0.89. Total 100. Time: 14.171
+iteration: 85. success rate: 0.84. Total 100. Time: 12.137
+iteration: 86. success rate: 0.87. Total 100. Time: 16.055
+iteration: 87. success rate: 0.95. Total 100. Time: 14.637
+iteration: 88. success rate: 0.94. Total 100. Time: 11.953
+iteration: 89. success rate: 0.97. Total 100. Time: 9.951
+iteration: 90. success rate: 1.0. Total 100. Time: 9.957
+evaluating model:
+evaluation success rate: 0.3. time: 25.405
+iteration: 91. success rate: 0.95. Total 100. Time: 9.379
+iteration: 92. success rate: 0.91. Total 100. Time: 12.923
+iteration: 93. success rate: 0.95. Total 100. Time: 11.764
+iteration: 94. success rate: 0.94. Total 100. Time: 10.212
+iteration: 95. success rate: 0.96. Total 100. Time: 9.087
+iteration: 96. success rate: 0.98. Total 100. Time: 10.291
+iteration: 97. success rate: 0.93. Total 100. Time: 11.601
+iteration: 98. success rate: 0.96. Total 100. Time: 9.485
+iteration: 99. success rate: 0.93. Total 100. Time: 10.647
+iteration: 100. success rate: 0.97. Total 100. Time: 10.198
+iteration: 101. success rate: 0.97. Total 100. Time: 9.391
+iteration: 102. success rate: 1.0. Total 100. Time: 9.13
+iteration: 103. success rate: 1.0. Total 100. Time: 10.032
+iteration: 104. success rate: 0.99. Total 100. Time: 10.161
+iteration: 105. success rate: 0.98. Total 100. Time: 12.013
+evaluating model:
+evaluation success rate: 0.54. time: 20.72
+iteration: 106. success rate: 0.99. Total 100. Time: 12.48
+iteration: 107. success rate: 0.99. Total 100. Time: 11.009
+iteration: 108. success rate: 0.98. Total 100. Time: 11.237
+iteration: 109. success rate: 1.0. Total 100. Time: 9.386
+iteration: 110. success rate: 1.0. Total 100. Time: 8.852
+iteration: 111. success rate: 1.0. Total 100. Time: 9.728
+iteration: 112. success rate: 1.0. Total 100. Time: 10.113
+iteration: 113. success rate: 0.99. Total 100. Time: 9.162
+iteration: 114. success rate: 0.96. Total 100. Time: 8.976
+iteration: 115. success rate: 0.99. Total 100. Time: 9.729
+iteration: 116. success rate: 1.0. Total 100. Time: 9.826
+iteration: 117. success rate: 1.0. Total 100. Time: 9.977
+iteration: 118. success rate: 1.0. Total 100. Time: 9.948
+iteration: 119. success rate: 1.0. Total 100. Time: 10.559
+iteration: 120. success rate: 0.99. Total 100. Time: 8.855
+evaluating model:
+evaluation success rate: 0.62. time: 21.804
+iteration: 121. success rate: 1.0. Total 100. Time: 11.469
+iteration: 122. success rate: 1.0. Total 100. Time: 11.179
+iteration: 123. success rate: 1.0. Total 100. Time: 10.109
+iteration: 124. success rate: 1.0. Total 100. Time: 9.698
+iteration: 125. success rate: 0.99. Total 100. Time: 8.932
+iteration: 126. success rate: 1.0. Total 100. Time: 8.711
+iteration: 127. success rate: 0.99. Total 100. Time: 9.784
+iteration: 128. success rate: 1.0. Total 100. Time: 10.431
+iteration: 129. success rate: 1.0. Total 100. Time: 11.181
+iteration: 130. success rate: 0.98. Total 100. Time: 8.846
+iteration: 131. success rate: 1.0. Total 100. Time: 9.053
+iteration: 132. success rate: 1.0. Total 100. Time: 8.244
+iteration: 133. success rate: 0.99. Total 100. Time: 12.004
+iteration: 134. success rate: 0.99. Total 100. Time: 10.768
+iteration: 135. success rate: 1.0. Total 100. Time: 10.723
+evaluating model:
+evaluation success rate: 0.74. time: 19.415
+iteration: 136. success rate: 1.0. Total 100. Time: 11.052
+iteration: 137. success rate: 1.0. Total 100. Time: 10.349
+iteration: 138. success rate: 1.0. Total 100. Time: 10.84
+iteration: 139. success rate: 1.0. Total 100. Time: 10.543
+iteration: 140. success rate: 1.0. Total 100. Time: 12.142
+iteration: 141. success rate: 1.0. Total 100. Time: 11.434
+iteration: 142. success rate: 1.0. Total 100. Time: 10.69
+iteration: 143. success rate: 0.99. Total 100. Time: 9.443
+iteration: 144. success rate: 0.96. Total 100. Time: 9.997
+iteration: 145. success rate: 1.0. Total 100. Time: 10.703
+iteration: 146. success rate: 1.0. Total 100. Time: 11.507
+iteration: 147. success rate: 0.98. Total 100. Time: 9.115
+iteration: 148. success rate: 0.99. Total 100. Time: 8.917
+iteration: 149. success rate: 1.0. Total 100. Time: 9.529
+iteration: 150. success rate: 0.98. Total 100. Time: 8.83
+evaluating model:
+evaluation success rate: 0.77. time: 18.2
+iteration: 151. success rate: 0.99. Total 100. Time: 8.934
+iteration: 152. success rate: 1.0. Total 100. Time: 9.526
+iteration: 153. success rate: 1.0. Total 100. Time: 9.549
+iteration: 154. success rate: 1.0. Total 100. Time: 9.015
+iteration: 155. success rate: 1.0. Total 100. Time: 8.845
+iteration: 156. success rate: 1.0. Total 100. Time: 9.103
+iteration: 157. success rate: 1.0. Total 100. Time: 9.955
+iteration: 158. success rate: 1.0. Total 100. Time: 8.895
+iteration: 159. success rate: 0.99. Total 100. Time: 8.681
+iteration: 160. success rate: 1.0. Total 100. Time: 9.735
+iteration: 161. success rate: 1.0. Total 100. Time: 10.954
+iteration: 162. success rate: 1.0. Total 100. Time: 11.116
+iteration: 163. success rate: 0.99. Total 100. Time: 9.061
+iteration: 164. success rate: 1.0. Total 100. Time: 9.287
+iteration: 165. success rate: 0.99. Total 100. Time: 11.176
+evaluating model:
+evaluation success rate: 0.78. time: 17.254
+iteration: 166. success rate: 1.0. Total 100. Time: 11.054
+iteration: 167. success rate: 1.0. Total 100. Time: 11.134
+iteration: 168. success rate: 1.0. Total 100. Time: 11.07
+iteration: 169. success rate: 1.0. Total 100. Time: 10.646
+iteration: 170. success rate: 1.0. Total 100. Time: 11.394
+iteration: 171. success rate: 1.0. Total 100. Time: 10.3
+iteration: 172. success rate: 1.0. Total 100. Time: 11.012
+iteration: 173. success rate: 0.99. Total 100. Time: 9.705
+iteration: 174. success rate: 1.0. Total 100. Time: 11.264
+iteration: 175. success rate: 1.0. Total 100. Time: 10.248
+iteration: 176. success rate: 1.0. Total 100. Time: 11.021
+iteration: 177. success rate: 1.0. Total 100. Time: 10.942
+iteration: 178. success rate: 1.0. Total 100. Time: 9.077
+iteration: 179. success rate: 1.0. Total 100. Time: 10.835
+iteration: 180. success rate: 1.0. Total 100. Time: 9.432
+evaluating model:
+evaluation success rate: 0.86. time: 16.673
+iteration: 181. success rate: 1.0. Total 100. Time: 9.83
+iteration: 182. success rate: 1.0. Total 100. Time: 9.991
+iteration: 183. success rate: 1.0. Total 100. Time: 10.904
+iteration: 184. success rate: 1.0. Total 100. Time: 10.596
+iteration: 185. success rate: 1.0. Total 100. Time: 10.174
+iteration: 186. success rate: 1.0. Total 100. Time: 9.703
+iteration: 187. success rate: 1.0. Total 100. Time: 10.574
+iteration: 188. success rate: 1.0. Total 100. Time: 9.044
+iteration: 189. success rate: 1.0. Total 100. Time: 9.945
+iteration: 190. success rate: 1.0. Total 100. Time: 9.884
+iteration: 191. success rate: 1.0. Total 100. Time: 9.607
+iteration: 192. success rate: 1.0. Total 100. Time: 9.26
+iteration: 193. success rate: 1.0. Total 100. Time: 10.274
+iteration: 194. success rate: 0.99. Total 100. Time: 8.725
+iteration: 195. success rate: 1.0. Total 100. Time: 11.568
+evaluating model:
+evaluation success rate: 0.98. time: 17.358
+iteration: 196. success rate: 1.0. Total 100. Time: 11.187
+iteration: 197. success rate: 1.0. Total 100. Time: 10.756
+iteration: 198. success rate: 1.0. Total 100. Time: 10.621
+iteration: 199. success rate: 1.0. Total 100. Time: 9.587
+iteration: 200. success rate: 1.0. Total 100. Time: 10.807
+iteration: 201. success rate: 1.0. Total 100. Time: 11.302
+iteration: 202. success rate: 1.0. Total 100. Time: 11.435
+iteration: 203. success rate: 1.0. Total 100. Time: 10.106
+iteration: 204. success rate: 1.0. Total 100. Time: 10.792
+iteration: 205. success rate: 1.0. Total 100. Time: 9.473
+iteration: 206. success rate: 1.0. Total 100. Time: 11.193
+iteration: 207. success rate: 0.97. Total 100. Time: 9.997
+iteration: 208. success rate: 1.0. Total 100. Time: 9.916
+iteration: 209. success rate: 1.0. Total 100. Time: 9.151
+iteration: 210. success rate: 1.0. Total 100. Time: 8.744
+evaluating model:
+evaluation success rate: 0.93. time: 14.9
+iteration: 211. success rate: 1.0. Total 100. Time: 8.626
+iteration: 212. success rate: 1.0. Total 100. Time: 9.405
+iteration: 213. success rate: 1.0. Total 100. Time: 8.883
+iteration: 214. success rate: 1.0. Total 100. Time: 9.939
+iteration: 215. success rate: 1.0. Total 100. Time: 10.477
+iteration: 216. success rate: 1.0. Total 100. Time: 10.988
+iteration: 217. success rate: 1.0. Total 100. Time: 9.219
+iteration: 218. success rate: 1.0. Total 100. Time: 10.334
+iteration: 219. success rate: 1.0. Total 100. Time: 9.976
+iteration: 220. success rate: 1.0. Total 100. Time: 10.31
+iteration: 221. success rate: 1.0. Total 100. Time: 9.348
+iteration: 222. success rate: 1.0. Total 100. Time: 9.029
+iteration: 223. success rate: 1.0. Total 100. Time: 9.03
+iteration: 224. success rate: 1.0. Total 100. Time: 8.649
+iteration: 225. success rate: 1.0. Total 100. Time: 10.395
+evaluating model:
+evaluation success rate: 1.0. time: 13.067
+iteration: 226. success rate: 1.0. Total 100. Time: 10.747
+iteration: 227. success rate: 1.0. Total 100. Time: 9.469
+iteration: 228. success rate: 1.0. Total 100. Time: 9.707
+iteration: 229. success rate: 1.0. Total 100. Time: 8.692
+iteration: 230. success rate: 1.0. Total 100. Time: 8.398
+iteration: 231. success rate: 1.0. Total 100. Time: 10.53
+iteration: 232. success rate: 1.0. Total 100. Time: 10.093
+iteration: 233. success rate: 1.0. Total 100. Time: 10.209
+iteration: 234. success rate: 1.0. Total 100. Time: 8.737
+iteration: 235. success rate: 1.0. Total 100. Time: 10.531
+iteration: 236. success rate: 1.0. Total 100. Time: 9.744
+iteration: 237. success rate: 1.0. Total 100. Time: 8.944
+iteration: 238. success rate: 1.0. Total 100. Time: 10.801
+iteration: 239. success rate: 0.99. Total 100. Time: 7.963
+iteration: 240. success rate: 1.0. Total 100. Time: 10.204
+evaluating model:
+evaluation success rate: 1.0. time: 13.144
+iteration: 241. success rate: 1.0. Total 100. Time: 8.662
+iteration: 242. success rate: 1.0. Total 100. Time: 9.219
+iteration: 243. success rate: 1.0. Total 100. Time: 9.317
+iteration: 244. success rate: 1.0. Total 100. Time: 8.344
+iteration: 245. success rate: 1.0. Total 100. Time: 10.568
+iteration: 246. success rate: 1.0. Total 100. Time: 10.652
+iteration: 247. success rate: 1.0. Total 100. Time: 8.849
+iteration: 248. success rate: 1.0. Total 100. Time: 9.505
+iteration: 249. success rate: 1.0. Total 100. Time: 8.965
+iteration: 250. success rate: 1.0. Total 100. Time: 9.515
+iteration: 251. success rate: 1.0. Total 100. Time: 10.956
+iteration: 252. success rate: 1.0. Total 100. Time: 10.627
+iteration: 253. success rate: 1.0. Total 100. Time: 8.554
+iteration: 254. success rate: 1.0. Total 100. Time: 8.469
+iteration: 255. success rate: 1.0. Total 100. Time: 8.792
+evaluating model:
+evaluation success rate: 0.97. time: 14.132
+iteration: 256. success rate: 1.0. Total 100. Time: 8.827
+iteration: 257. success rate: 1.0. Total 100. Time: 9.118
+iteration: 258. success rate: 1.0. Total 100. Time: 9.489
+iteration: 259. success rate: 1.0. Total 100. Time: 10.767
+iteration: 260. success rate: 0.99. Total 100. Time: 8.554
+iteration: 261. success rate: 1.0. Total 100. Time: 8.791
+iteration: 262. success rate: 1.0. Total 100. Time: 8.325
+iteration: 263. success rate: 1.0. Total 100. Time: 10.857
+iteration: 264. success rate: 1.0. Total 100. Time: 9.241
+iteration: 265. success rate: 1.0. Total 100. Time: 10.542
+iteration: 266. success rate: 1.0. Total 100. Time: 10.612
+iteration: 267. success rate: 1.0. Total 100. Time: 10.567
+iteration: 268. success rate: 1.0. Total 100. Time: 8.914
+iteration: 269. success rate: 1.0. Total 100. Time: 10.488
+iteration: 270. success rate: 1.0. Total 100. Time: 10.616
+evaluating model:
+evaluation success rate: 0.98. time: 13.355
+iteration: 271. success rate: 1.0. Total 100. Time: 9.861
+iteration: 272. success rate: 1.0. Total 100. Time: 10.301
+iteration: 273. success rate: 1.0. Total 100. Time: 8.754
+iteration: 274. success rate: 1.0. Total 100. Time: 9.134
+iteration: 275. success rate: 1.0. Total 100. Time: 8.876
+iteration: 276. success rate: 1.0. Total 100. Time: 9.851
+iteration: 277. success rate: 1.0. Total 100. Time: 9.171
+iteration: 278. success rate: 1.0. Total 100. Time: 10.129
+iteration: 279. success rate: 1.0. Total 100. Time: 9.043
+iteration: 280. success rate: 1.0. Total 100. Time: 10.385
+iteration: 281. success rate: 1.0. Total 100. Time: 10.759
+iteration: 282. success rate: 1.0. Total 100. Time: 10.519
+iteration: 283. success rate: 1.0. Total 100. Time: 8.443
+iteration: 284. success rate: 1.0. Total 100. Time: 10.698
+iteration: 285. success rate: 1.0. Total 100. Time: 9.539
+evaluating model:
+evaluation success rate: 0.84. time: 16.538
+iteration: 286. success rate: 1.0. Total 100. Time: 8.64
+iteration: 287. success rate: 1.0. Total 100. Time: 9.681
+iteration: 288. success rate: 1.0. Total 100. Time: 8.468
+iteration: 289. success rate: 0.99. Total 100. Time: 8.145
+iteration: 290. success rate: 1.0. Total 100. Time: 8.209
+iteration: 291. success rate: 1.0. Total 100. Time: 9.504
+iteration: 292. success rate: 1.0. Total 100. Time: 10.439
+iteration: 293. success rate: 1.0. Total 100. Time: 9.248
+iteration: 294. success rate: 1.0. Total 100. Time: 10.484
+iteration: 295. success rate: 1.0. Total 100. Time: 10.43
+iteration: 296. success rate: 1.0. Total 100. Time: 10.227
+iteration: 297. success rate: 1.0. Total 100. Time: 10.82
+iteration: 298. success rate: 1.0. Total 100. Time: 10.408
+iteration: 299. success rate: 1.0. Total 100. Time: 10.479
+iteration: 300. success rate: 1.0. Total 100. Time: 10.018
+evaluating model:
+evaluation success rate: 0.76. time: 17.2
+iteration: 301. success rate: 1.0. Total 100. Time: 9.764
+iteration: 302. success rate: 1.0. Total 100. Time: 10.732
+iteration: 303. success rate: 1.0. Total 100. Time: 9.723
+iteration: 304. success rate: 1.0. Total 100. Time: 9.108
+iteration: 305. success rate: 1.0. Total 100. Time: 10.762
+iteration: 306. success rate: 1.0. Total 100. Time: 10.222
+iteration: 307. success rate: 1.0. Total 100. Time: 9.461
+iteration: 308. success rate: 0.99. Total 100. Time: 8.634
+iteration: 309. success rate: 1.0. Total 100. Time: 9.894
+iteration: 310. success rate: 1.0. Total 100. Time: 8.773
+iteration: 311. success rate: 1.0. Total 100. Time: 10.681
+iteration: 312. success rate: 1.0. Total 100. Time: 10.312
+iteration: 313. success rate: 1.0. Total 100. Time: 8.621
+iteration: 314. success rate: 1.0. Total 100. Time: 9.447
+iteration: 315. success rate: 1.0. Total 100. Time: 9.23
+evaluating model:
+evaluation success rate: 0.89. time: 14.189
+iteration: 316. success rate: 1.0. Total 100. Time: 10.14
+iteration: 317. success rate: 1.0. Total 100. Time: 10.341
+iteration: 318. success rate: 1.0. Total 100. Time: 10.522
+iteration: 319. success rate: 1.0. Total 100. Time: 10.006
+iteration: 320. success rate: 1.0. Total 100. Time: 10.154
+iteration: 321. success rate: 1.0. Total 100. Time: 10.409
+iteration: 322. success rate: 1.0. Total 100. Time: 9.308
+iteration: 323. success rate: 1.0. Total 100. Time: 8.772
+iteration: 324. success rate: 1.0. Total 100. Time: 9.351
+iteration: 325. success rate: 1.0. Total 100. Time: 8.744
+iteration: 326. success rate: 1.0. Total 100. Time: 10.228
+iteration: 327. success rate: 1.0. Total 100. Time: 8.891
+iteration: 328. success rate: 1.0. Total 100. Time: 9.119
+iteration: 329. success rate: 1.0. Total 100. Time: 10.083
+iteration: 330. success rate: 1.0. Total 100. Time: 8.197
+evaluating model:
+evaluation success rate: 0.91. time: 13.596
+iteration: 331. success rate: 1.0. Total 100. Time: 10.4
+iteration: 332. success rate: 1.0. Total 100. Time: 9.107
+iteration: 333. success rate: 1.0. Total 100. Time: 10.612
+iteration: 334. success rate: 1.0. Total 100. Time: 8.291
+iteration: 335. success rate: 1.0. Total 100. Time: 10.428
+iteration: 336. success rate: 1.0. Total 100. Time: 9.093
+iteration: 337. success rate: 1.0. Total 100. Time: 10.727
+iteration: 338. success rate: 1.0. Total 100. Time: 9.126
+iteration: 339. success rate: 1.0. Total 100. Time: 10.428
+iteration: 340. success rate: 1.0. Total 100. Time: 10.551
+iteration: 341. success rate: 1.0. Total 100. Time: 10.453
+iteration: 342. success rate: 1.0. Total 100. Time: 10.69
+iteration: 343. success rate: 1.0. Total 100. Time: 10.546
+iteration: 344. success rate: 1.0. Total 100. Time: 10.639
+iteration: 345. success rate: 1.0. Total 100. Time: 9.432
+evaluating model:
+evaluation success rate: 0.85. time: 14.459
+iteration: 346. success rate: 1.0. Total 100. Time: 9.805
+iteration: 347. success rate: 1.0. Total 100. Time: 8.726
+iteration: 348. success rate: 1.0. Total 100. Time: 8.846
+iteration: 349. success rate: 1.0. Total 100. Time: 10.633
+iteration: 350. success rate: 1.0. Total 100. Time: 9.312
+iteration: 351. success rate: 1.0. Total 100. Time: 10.55
+iteration: 352. success rate: 1.0. Total 100. Time: 8.53
+iteration: 353. success rate: 1.0. Total 100. Time: 10.458
+iteration: 354. success rate: 1.0. Total 100. Time: 9.296
+iteration: 355. success rate: 0.99. Total 100. Time: 8.122
+iteration: 356. success rate: 1.0. Total 100. Time: 10.826
+iteration: 357. success rate: 1.0. Total 100. Time: 10.996
+iteration: 358. success rate: 1.0. Total 100. Time: 11.002
+iteration: 359. success rate: 1.0. Total 100. Time: 10.594
+iteration: 360. success rate: 1.0. Total 100. Time: 10.62
+evaluating model:
+evaluation success rate: 0.99. time: 13.831
+iteration: 361. success rate: 1.0. Total 100. Time: 8.436
+iteration: 362. success rate: 1.0. Total 100. Time: 10.289
+iteration: 363. success rate: 1.0. Total 100. Time: 10.234
+iteration: 364. success rate: 1.0. Total 100. Time: 8.615
+iteration: 365. success rate: 1.0. Total 100. Time: 10.611
+iteration: 366. success rate: 1.0. Total 100. Time: 9.453
+iteration: 367. success rate: 1.0. Total 100. Time: 10.587
+iteration: 368. success rate: 1.0. Total 100. Time: 10.913
+iteration: 369. success rate: 1.0. Total 100. Time: 9.556
+iteration: 370. success rate: 1.0. Total 100. Time: 10.685
+iteration: 371. success rate: 1.0. Total 100. Time: 9.374
+iteration: 372. success rate: 1.0. Total 100. Time: 10.601
+iteration: 373. success rate: 1.0. Total 100. Time: 10.265
+iteration: 374. success rate: 1.0. Total 100. Time: 9.479
+iteration: 375. success rate: 1.0. Total 100. Time: 10.262
+evaluating model:
+evaluation success rate: 0.97. time: 12.76
+iteration: 376. success rate: 1.0. Total 100. Time: 10.434
+iteration: 377. success rate: 1.0. Total 100. Time: 10.584
+iteration: 378. success rate: 1.0. Total 100. Time: 10.118
+iteration: 379. success rate: 1.0. Total 100. Time: 9.649
+iteration: 380. success rate: 1.0. Total 100. Time: 9.184
+iteration: 381. success rate: 1.0. Total 100. Time: 9.941
+iteration: 382. success rate: 1.0. Total 100. Time: 9.013
+iteration: 383. success rate: 1.0. Total 100. Time: 9.047
+iteration: 384. success rate: 1.0. Total 100. Time: 8.872
+iteration: 385. success rate: 1.0. Total 100. Time: 9.834
+iteration: 386. success rate: 1.0. Total 100. Time: 9.706
+iteration: 387. success rate: 1.0. Total 100. Time: 9.145
+iteration: 388. success rate: 1.0. Total 100. Time: 9.806
+iteration: 389. success rate: 1.0. Total 100. Time: 9.734
+iteration: 390. success rate: 1.0. Total 100. Time: 10.536
+evaluating model:
+evaluation success rate: 0.92. time: 13.956
+iteration: 391. success rate: 1.0. Total 100. Time: 10.54
+iteration: 392. success rate: 1.0. Total 100. Time: 10.54
+iteration: 393. success rate: 1.0. Total 100. Time: 10.258
+iteration: 394. success rate: 1.0. Total 100. Time: 10.699
+iteration: 395. success rate: 1.0. Total 100. Time: 9.77
+iteration: 396. success rate: 1.0. Total 100. Time: 9.255
+iteration: 397. success rate: 1.0. Total 100. Time: 10.33
+iteration: 398. success rate: 1.0. Total 100. Time: 10.785
+iteration: 399. success rate: 1.0. Total 100. Time: 10.451
+iteration: 400. success rate: 1.0. Total 100. Time: 10.703
+iteration: 401. success rate: 1.0. Total 100. Time: 10.588
+iteration: 402. success rate: 1.0. Total 100. Time: 10.309
+iteration: 403. success rate: 1.0. Total 100. Time: 8.538
+iteration: 404. success rate: 1.0. Total 100. Time: 10.688
+iteration: 405. success rate: 1.0. Total 100. Time: 10.311
+evaluating model:
+evaluation success rate: 0.96. time: 13.19
+iteration: 406. success rate: 1.0. Total 100. Time: 10.26
+iteration: 407. success rate: 1.0. Total 100. Time: 9.748
+iteration: 408. success rate: 1.0. Total 100. Time: 9.908
+iteration: 409. success rate: 1.0. Total 100. Time: 10.49
+iteration: 410. success rate: 1.0. Total 100. Time: 10.7
+iteration: 411. success rate: 1.0. Total 100. Time: 8.731
+iteration: 412. success rate: 1.0. Total 100. Time: 10.747
+iteration: 413. success rate: 1.0. Total 100. Time: 10.681
+iteration: 414. success rate: 1.0. Total 100. Time: 9.89
+iteration: 415. success rate: 1.0. Total 100. Time: 9.718
+iteration: 416. success rate: 1.0. Total 100. Time: 9.931
+iteration: 417. success rate: 1.0. Total 100. Time: 10.478
+iteration: 418. success rate: 1.0. Total 100. Time: 9.284
+iteration: 419. success rate: 1.0. Total 100. Time: 10.809
+iteration: 420. success rate: 1.0. Total 100. Time: 10.488
+evaluating model:
+evaluation success rate: 0.91. time: 13.766
+iteration: 421. success rate: 1.0. Total 100. Time: 10.64
+iteration: 422. success rate: 1.0. Total 100. Time: 9.478
+iteration: 423. success rate: 1.0. Total 100. Time: 9.852
+iteration: 424. success rate: 1.0. Total 100. Time: 9.079
+iteration: 425. success rate: 1.0. Total 100. Time: 8.746
+iteration: 426. success rate: 1.0. Total 100. Time: 9.429
+iteration: 427. success rate: 1.0. Total 100. Time: 8.898
+iteration: 428. success rate: 1.0. Total 100. Time: 10.166
+iteration: 429. success rate: 1.0. Total 100. Time: 10.535
+iteration: 430. success rate: 1.0. Total 100. Time: 10.356
+iteration: 431. success rate: 1.0. Total 100. Time: 9.839
+iteration: 432. success rate: 1.0. Total 100. Time: 10.529
+iteration: 433. success rate: 1.0. Total 100. Time: 10.62
+iteration: 434. success rate: 1.0. Total 100. Time: 9.303
+iteration: 435. success rate: 1.0. Total 100. Time: 10.541
+evaluating model:
+evaluation success rate: 0.96. time: 13.63
+iteration: 436. success rate: 1.0. Total 100. Time: 10.216
+iteration: 437. success rate: 1.0. Total 100. Time: 9.635
+iteration: 438. success rate: 1.0. Total 100. Time: 10.398
+iteration: 439. success rate: 1.0. Total 100. Time: 10.099
+iteration: 440. success rate: 1.0. Total 100. Time: 8.679
+iteration: 441. success rate: 1.0. Total 100. Time: 8.898
+iteration: 442. success rate: 1.0. Total 100. Time: 9.91
+iteration: 443. success rate: 1.0. Total 100. Time: 9.495
+iteration: 444. success rate: 1.0. Total 100. Time: 9.199
+iteration: 445. success rate: 1.0. Total 100. Time: 10.842
+iteration: 446. success rate: 1.0. Total 100. Time: 9.062
+iteration: 447. success rate: 1.0. Total 100. Time: 9.735
+iteration: 448. success rate: 1.0. Total 100. Time: 9.115
+iteration: 449. success rate: 1.0. Total 100. Time: 10.731
+iteration: 450. success rate: 1.0. Total 100. Time: 8.805
+evaluating model:
+evaluation success rate: 0.97. time: 12.658
+iteration: 451. success rate: 1.0. Total 100. Time: 9.036
+iteration: 452. success rate: 1.0. Total 100. Time: 10.705
+iteration: 453. success rate: 1.0. Total 100. Time: 9.46
+iteration: 454. success rate: 1.0. Total 100. Time: 9.303
+iteration: 455. success rate: 1.0. Total 100. Time: 10.041
+iteration: 456. success rate: 1.0. Total 100. Time: 10.334
+iteration: 457. success rate: 1.0. Total 100. Time: 10.759
+iteration: 458. success rate: 1.0. Total 100. Time: 9.204
+iteration: 459. success rate: 1.0. Total 100. Time: 10.062
+iteration: 460. success rate: 1.0. Total 100. Time: 10.781
+iteration: 461. success rate: 1.0. Total 100. Time: 10.467
+iteration: 462. success rate: 1.0. Total 100. Time: 9.007
+iteration: 463. success rate: 1.0. Total 100. Time: 8.946
+iteration: 464. success rate: 1.0. Total 100. Time: 8.806
+iteration: 465. success rate: 1.0. Total 100. Time: 9.09
+evaluating model:
+evaluation success rate: 0.86. time: 14.168
+iteration: 466. success rate: 1.0. Total 100. Time: 9.154
+iteration: 467. success rate: 1.0. Total 100. Time: 8.567
+iteration: 468. success rate: 1.0. Total 100. Time: 10.611
+iteration: 469. success rate: 1.0. Total 100. Time: 9.033
+iteration: 470. success rate: 1.0. Total 100. Time: 10.57
+iteration: 471. success rate: 1.0. Total 100. Time: 9.886
+iteration: 472. success rate: 1.0. Total 100. Time: 10.587
+iteration: 473. success rate: 1.0. Total 100. Time: 8.543
+iteration: 474. success rate: 1.0. Total 100. Time: 8.985
+iteration: 475. success rate: 1.0. Total 100. Time: 9.356
+iteration: 476. success rate: 1.0. Total 100. Time: 10.517
+iteration: 477. success rate: 1.0. Total 100. Time: 10.351
+iteration: 478. success rate: 1.0. Total 100. Time: 10.628
+iteration: 479. success rate: 1.0. Total 100. Time: 10.252
+iteration: 480. success rate: 1.0. Total 100. Time: 9.588
+evaluating model:
+evaluation success rate: 0.85. time: 15.056
+iteration: 481. success rate: 1.0. Total 100. Time: 10.893
+iteration: 482. success rate: 1.0. Total 100. Time: 10.308
+iteration: 483. success rate: 1.0. Total 100. Time: 9.0
+iteration: 484. success rate: 1.0. Total 100. Time: 9.447
+iteration: 485. success rate: 1.0. Total 100. Time: 9.388
+iteration: 486. success rate: 1.0. Total 100. Time: 9.085
+iteration: 487. success rate: 1.0. Total 100. Time: 8.97
+iteration: 488. success rate: 1.0. Total 100. Time: 9.044
+iteration: 489. success rate: 1.0. Total 100. Time: 10.354
+iteration: 490. success rate: 1.0. Total 100. Time: 9.447
+iteration: 491. success rate: 1.0. Total 100. Time: 9.306
+iteration: 492. success rate: 1.0. Total 100. Time: 9.541
+iteration: 493. success rate: 1.0. Total 100. Time: 9.557
+iteration: 494. success rate: 1.0. Total 100. Time: 8.456
+iteration: 495. success rate: 1.0. Total 100. Time: 10.246
+evaluating model:
+evaluation success rate: 0.89. time: 13.871
+iteration: 496. success rate: 1.0. Total 100. Time: 10.563
+iteration: 497. success rate: 1.0. Total 100. Time: 10.356
+iteration: 498. success rate: 1.0. Total 100. Time: 9.445
+iteration: 499. success rate: 1.0. Total 100. Time: 8.925
+iteration: 500. success rate: 1.0. Total 100. Time: 8.772
+iteration: 501. success rate: 1.0. Total 100. Time: 10.708
+iteration: 502. success rate: 1.0. Total 100. Time: 10.248
+iteration: 503. success rate: 1.0. Total 100. Time: 10.785
+iteration: 504. success rate: 1.0. Total 100. Time: 9.282
+iteration: 505. success rate: 1.0. Total 100. Time: 10.128
+iteration: 506. success rate: 1.0. Total 100. Time: 9.438
+iteration: 507. success rate: 1.0. Total 100. Time: 10.535
+iteration: 508. success rate: 1.0. Total 100. Time: 9.754
+iteration: 509. success rate: 1.0. Total 100. Time: 9.575
+iteration: 510. success rate: 1.0. Total 100. Time: 9.54
+evaluating model:
+evaluation success rate: 0.9. time: 14.043
+iteration: 511. success rate: 1.0. Total 100. Time: 9.343
+iteration: 512. success rate: 1.0. Total 100. Time: 10.422
+iteration: 513. success rate: 1.0. Total 100. Time: 8.805
+iteration: 514. success rate: 1.0. Total 100. Time: 8.99
+iteration: 515. success rate: 1.0. Total 100. Time: 8.932
+iteration: 516. success rate: 1.0. Total 100. Time: 10.62
+iteration: 517. success rate: 1.0. Total 100. Time: 10.186
+iteration: 518. success rate: 1.0. Total 100. Time: 10.517
+iteration: 519. success rate: 1.0. Total 100. Time: 10.389
+iteration: 520. success rate: 1.0. Total 100. Time: 9.888
+iteration: 521. success rate: 1.0. Total 100. Time: 9.615
+iteration: 522. success rate: 1.0. Total 100. Time: 9.567
+iteration: 523. success rate: 1.0. Total 100. Time: 9.957
+iteration: 524. success rate: 1.0. Total 100. Time: 9.297
+iteration: 525. success rate: 1.0. Total 100. Time: 9.876
+evaluating model:
+evaluation success rate: 0.95. time: 13.186
+iteration: 526. success rate: 1.0. Total 100. Time: 10.441
+iteration: 527. success rate: 1.0. Total 100. Time: 10.223
+iteration: 528. success rate: 1.0. Total 100. Time: 9.642
+iteration: 529. success rate: 1.0. Total 100. Time: 10.776
+iteration: 530. success rate: 1.0. Total 100. Time: 9.185
+iteration: 531. success rate: 1.0. Total 100. Time: 9.12
+iteration: 532. success rate: 1.0. Total 100. Time: 10.685
+iteration: 533. success rate: 1.0. Total 100. Time: 10.185
+iteration: 534. success rate: 1.0. Total 100. Time: 10.431
+iteration: 535. success rate: 1.0. Total 100. Time: 10.376
+iteration: 536. success rate: 1.0. Total 100. Time: 9.998
+iteration: 537. success rate: 1.0. Total 100. Time: 10.527
+iteration: 538. success rate: 1.0. Total 100. Time: 10.584
+iteration: 539. success rate: 1.0. Total 100. Time: 10.381
+iteration: 540. success rate: 1.0. Total 100. Time: 10.382
+evaluating model:
+evaluation success rate: 0.91. time: 14.229
+iteration: 541. success rate: 1.0. Total 100. Time: 10.332
+iteration: 542. success rate: 1.0. Total 100. Time: 9.004
+iteration: 543. success rate: 1.0. Total 100. Time: 9.559
+iteration: 544. success rate: 1.0. Total 100. Time: 9.882
+iteration: 545. success rate: 1.0. Total 100. Time: 8.856
+iteration: 546. success rate: 1.0. Total 100. Time: 10.445
+iteration: 547. success rate: 1.0. Total 100. Time: 10.637
+iteration: 548. success rate: 1.0. Total 100. Time: 10.404
+iteration: 549. success rate: 1.0. Total 100. Time: 10.381
+iteration: 550. success rate: 1.0. Total 100. Time: 10.796
+iteration: 551. success rate: 1.0. Total 100. Time: 10.808
+iteration: 552. success rate: 1.0. Total 100. Time: 8.585
+iteration: 553. success rate: 1.0. Total 100. Time: 10.362
+iteration: 554. success rate: 1.0. Total 100. Time: 10.773
+iteration: 555. success rate: 1.0. Total 100. Time: 10.64
+evaluating model:
+evaluation success rate: 0.94. time: 13.28
+iteration: 556. success rate: 1.0. Total 100. Time: 10.425
+iteration: 557. success rate: 1.0. Total 100. Time: 10.457
+iteration: 558. success rate: 1.0. Total 100. Time: 10.545
+iteration: 559. success rate: 1.0. Total 100. Time: 10.417
+iteration: 560. success rate: 1.0. Total 100. Time: 10.443
+iteration: 561. success rate: 1.0. Total 100. Time: 10.517
+iteration: 562. success rate: 1.0. Total 100. Time: 10.398
+iteration: 563. success rate: 1.0. Total 100. Time: 10.478
+iteration: 564. success rate: 1.0. Total 100. Time: 10.582
+iteration: 565. success rate: 1.0. Total 100. Time: 10.055
+iteration: 566. success rate: 1.0. Total 100. Time: 9.635
+iteration: 567. success rate: 1.0. Total 100. Time: 9.012
+iteration: 568. success rate: 1.0. Total 100. Time: 10.306
+iteration: 569. success rate: 1.0. Total 100. Time: 9.808
+iteration: 570. success rate: 1.0. Total 100. Time: 10.271
+evaluating model:
+evaluation success rate: 0.88. time: 14.342
+iteration: 571. success rate: 1.0. Total 100. Time: 9.618
+iteration: 572. success rate: 1.0. Total 100. Time: 10.523
+iteration: 573. success rate: 1.0. Total 100. Time: 10.393
+iteration: 574. success rate: 1.0. Total 100. Time: 10.562
+iteration: 575. success rate: 1.0. Total 100. Time: 10.448
+iteration: 576. success rate: 1.0. Total 100. Time: 10.425
+iteration: 577. success rate: 1.0. Total 100. Time: 8.364
+iteration: 578. success rate: 1.0. Total 100. Time: 8.584
+iteration: 579. success rate: 1.0. Total 100. Time: 10.386
+iteration: 580. success rate: 1.0. Total 100. Time: 10.347
+iteration: 581. success rate: 1.0. Total 100. Time: 10.876
+iteration: 582. success rate: 1.0. Total 100. Time: 10.394
+iteration: 583. success rate: 1.0. Total 100. Time: 10.479
+iteration: 584. success rate: 1.0. Total 100. Time: 9.671
+iteration: 585. success rate: 1.0. Total 100. Time: 10.498
+evaluating model:
+evaluation success rate: 0.86. time: 14.288
+iteration: 586. success rate: 1.0. Total 100. Time: 9.301
+iteration: 587. success rate: 1.0. Total 100. Time: 10.296
+iteration: 588. success rate: 1.0. Total 100. Time: 10.4
+iteration: 589. success rate: 1.0. Total 100. Time: 10.65
+iteration: 590. success rate: 1.0. Total 100. Time: 10.115
+iteration: 591. success rate: 1.0. Total 100. Time: 10.269
+iteration: 592. success rate: 1.0. Total 100. Time: 10.563
+iteration: 593. success rate: 1.0. Total 100. Time: 10.597
+iteration: 594. success rate: 1.0. Total 100. Time: 10.123
+iteration: 595. success rate: 1.0. Total 100. Time: 10.478
+iteration: 596. success rate: 1.0. Total 100. Time: 10.732
+iteration: 597. success rate: 1.0. Total 100. Time: 10.909
+iteration: 598. success rate: 1.0. Total 100. Time: 10.601
+iteration: 599. success rate: 1.0. Total 100. Time: 9.836
+iteration: 600. success rate: 1.0. Total 100. Time: 10.215
+evaluating model:
+evaluation success rate: 0.77. time: 15.744
+iteration: 601. success rate: 1.0. Total 100. Time: 10.252
+iteration: 602. success rate: 1.0. Total 100. Time: 10.263
+iteration: 603. success rate: 1.0. Total 100. Time: 10.256
+iteration: 604. success rate: 1.0. Total 100. Time: 9.922
+iteration: 605. success rate: 1.0. Total 100. Time: 10.62
+iteration: 606. success rate: 1.0. Total 100. Time: 9.545
+iteration: 607. success rate: 1.0. Total 100. Time: 10.268
+iteration: 608. success rate: 1.0. Total 100. Time: 10.376
+iteration: 609. success rate: 1.0. Total 100. Time: 10.398
+iteration: 610. success rate: 1.0. Total 100. Time: 10.4
+iteration: 611. success rate: 1.0. Total 100. Time: 10.539
+iteration: 612. success rate: 1.0. Total 100. Time: 9.539
+iteration: 613. success rate: 1.0. Total 100. Time: 9.588
+iteration: 614. success rate: 1.0. Total 100. Time: 10.881
+iteration: 615. success rate: 1.0. Total 100. Time: 10.406
+evaluating model:
+evaluation success rate: 0.9. time: 13.914
+iteration: 616. success rate: 1.0. Total 100. Time: 10.466
+iteration: 617. success rate: 1.0. Total 100. Time: 10.562
+iteration: 618. success rate: 1.0. Total 100. Time: 9.213
+iteration: 619. success rate: 1.0. Total 100. Time: 10.523
+iteration: 620. success rate: 1.0. Total 100. Time: 10.712
+iteration: 621. success rate: 1.0. Total 100. Time: 10.521
+iteration: 622. success rate: 1.0. Total 100. Time: 10.578
+iteration: 623. success rate: 1.0. Total 100. Time: 9.968
+iteration: 624. success rate: 1.0. Total 100. Time: 10.563
+iteration: 625. success rate: 1.0. Total 100. Time: 10.438
+iteration: 626. success rate: 1.0. Total 100. Time: 10.779
+iteration: 627. success rate: 1.0. Total 100. Time: 10.566
+iteration: 628. success rate: 1.0. Total 100. Time: 10.336
+iteration: 629. success rate: 1.0. Total 100. Time: 9.828
+iteration: 630. success rate: 1.0. Total 100. Time: 10.588
+evaluating model:
+evaluation success rate: 0.87. time: 14.975
+iteration: 631. success rate: 1.0. Total 100. Time: 10.341
+iteration: 632. success rate: 1.0. Total 100. Time: 10.157
+iteration: 633. success rate: 1.0. Total 100. Time: 10.302
+iteration: 634. success rate: 1.0. Total 100. Time: 10.519
+iteration: 635. success rate: 1.0. Total 100. Time: 10.667
+iteration: 636. success rate: 1.0. Total 100. Time: 9.721
+iteration: 637. success rate: 1.0. Total 100. Time: 10.588
+iteration: 638. success rate: 1.0. Total 100. Time: 8.232
+iteration: 639. success rate: 1.0. Total 100. Time: 10.446
+iteration: 640. success rate: 1.0. Total 100. Time: 9.549
+iteration: 641. success rate: 1.0. Total 100. Time: 10.674
+iteration: 642. success rate: 1.0. Total 100. Time: 9.636
+iteration: 643. success rate: 1.0. Total 100. Time: 10.039
+iteration: 644. success rate: 1.0. Total 100. Time: 10.474
+iteration: 645. success rate: 1.0. Total 100. Time: 10.82
+evaluating model:
+evaluation success rate: 0.94. time: 13.797
+iteration: 646. success rate: 1.0. Total 100. Time: 10.107
+iteration: 647. success rate: 1.0. Total 100. Time: 10.237
+iteration: 648. success rate: 1.0. Total 100. Time: 9.839
+iteration: 649. success rate: 1.0. Total 100. Time: 9.584
+iteration: 650. success rate: 1.0. Total 100. Time: 10.397
+iteration: 651. success rate: 1.0. Total 100. Time: 10.62
+iteration: 652. success rate: 1.0. Total 100. Time: 9.81
+iteration: 653. success rate: 1.0. Total 100. Time: 8.984
+iteration: 654. success rate: 1.0. Total 100. Time: 10.747
+iteration: 655. success rate: 1.0. Total 100. Time: 10.466
+iteration: 656. success rate: 1.0. Total 100. Time: 10.712
+iteration: 657. success rate: 1.0. Total 100. Time: 10.462
+iteration: 658. success rate: 1.0. Total 100. Time: 10.118
+iteration: 659. success rate: 1.0. Total 100. Time: 10.621
+iteration: 660. success rate: 1.0. Total 100. Time: 10.799
+evaluating model:
+evaluation success rate: 0.86. time: 14.32
+iteration: 661. success rate: 1.0. Total 100. Time: 10.562
+iteration: 662. success rate: 1.0. Total 100. Time: 10.235
+iteration: 663. success rate: 1.0. Total 100. Time: 8.897
+iteration: 664. success rate: 1.0. Total 100. Time: 10.908
+iteration: 665. success rate: 1.0. Total 100. Time: 10.452
+iteration: 666. success rate: 1.0. Total 100. Time: 10.811
+iteration: 667. success rate: 1.0. Total 100. Time: 10.42
+iteration: 668. success rate: 1.0. Total 100. Time: 10.488
+iteration: 669. success rate: 1.0. Total 100. Time: 10.362
+iteration: 670. success rate: 1.0. Total 100. Time: 10.257
+iteration: 671. success rate: 1.0. Total 100. Time: 10.49
+iteration: 672. success rate: 1.0. Total 100. Time: 10.695
+iteration: 673. success rate: 1.0. Total 100. Time: 10.456
+iteration: 674. success rate: 1.0. Total 100. Time: 10.913
+iteration: 675. success rate: 1.0. Total 100. Time: 10.721
+evaluating model:
+evaluation success rate: 0.95. time: 13.137
+iteration: 676. success rate: 1.0. Total 100. Time: 10.24
+iteration: 677. success rate: 1.0. Total 100. Time: 9.827
+iteration: 678. success rate: 1.0. Total 100. Time: 10.624
+iteration: 679. success rate: 1.0. Total 100. Time: 10.405
+iteration: 680. success rate: 1.0. Total 100. Time: 10.825
+iteration: 681. success rate: 1.0. Total 100. Time: 10.844
+iteration: 682. success rate: 1.0. Total 100. Time: 10.738
+iteration: 683. success rate: 1.0. Total 100. Time: 10.652
+iteration: 684. success rate: 1.0. Total 100. Time: 10.405
+iteration: 685. success rate: 1.0. Total 100. Time: 10.472
+iteration: 686. success rate: 1.0. Total 100. Time: 10.088
+iteration: 687. success rate: 1.0. Total 100. Time: 10.544
+iteration: 688. success rate: 1.0. Total 100. Time: 10.512
+iteration: 689. success rate: 1.0. Total 100. Time: 10.308
+iteration: 690. success rate: 1.0. Total 100. Time: 10.22
+evaluating model:
+evaluation success rate: 0.95. time: 13.207
+iteration: 691. success rate: 1.0. Total 100. Time: 10.801
+iteration: 692. success rate: 1.0. Total 100. Time: 10.591
+iteration: 693. success rate: 1.0. Total 100. Time: 10.007
+iteration: 694. success rate: 1.0. Total 100. Time: 10.875
+iteration: 695. success rate: 1.0. Total 100. Time: 10.304
+iteration: 696. success rate: 1.0. Total 100. Time: 10.378
+iteration: 697. success rate: 1.0. Total 100. Time: 9.119
+iteration: 698. success rate: 1.0. Total 100. Time: 10.755
+iteration: 699. success rate: 1.0. Total 100. Time: 10.795
+iteration: 700. success rate: 1.0. Total 100. Time: 9.596
+iteration: 701. success rate: 1.0. Total 100. Time: 10.296
+iteration: 702. success rate: 1.0. Total 100. Time: 10.979
+iteration: 703. success rate: 1.0. Total 100. Time: 10.305
+iteration: 704. success rate: 1.0. Total 100. Time: 9.403
+iteration: 705. success rate: 1.0. Total 100. Time: 10.721
+evaluating model:
+evaluation success rate: 0.97. time: 12.867
+iteration: 706. success rate: 1.0. Total 100. Time: 10.918
+iteration: 707. success rate: 1.0. Total 100. Time: 10.671
+iteration: 708. success rate: 1.0. Total 100. Time: 10.685
+iteration: 709. success rate: 1.0. Total 100. Time: 10.703
+iteration: 710. success rate: 1.0. Total 100. Time: 10.553
+iteration: 711. success rate: 1.0. Total 100. Time: 10.906
+iteration: 712. success rate: 1.0. Total 100. Time: 10.444
+iteration: 713. success rate: 1.0. Total 100. Time: 10.05
+iteration: 714. success rate: 1.0. Total 100. Time: 11.047
+iteration: 715. success rate: 1.0. Total 100. Time: 10.452
+iteration: 716. success rate: 1.0. Total 100. Time: 10.5
+iteration: 717. success rate: 1.0. Total 100. Time: 10.839
+iteration: 718. success rate: 1.0. Total 100. Time: 10.311
+iteration: 719. success rate: 1.0. Total 100. Time: 10.61
+iteration: 720. success rate: 1.0. Total 100. Time: 10.304
+evaluating model:
+evaluation success rate: 0.97. time: 13.268
+iteration: 721. success rate: 1.0. Total 100. Time: 10.344
+iteration: 722. success rate: 1.0. Total 100. Time: 10.343
+iteration: 723. success rate: 1.0. Total 100. Time: 10.409
+iteration: 724. success rate: 1.0. Total 100. Time: 10.206
+iteration: 725. success rate: 1.0. Total 100. Time: 10.663
+iteration: 726. success rate: 1.0. Total 100. Time: 10.776
+iteration: 727. success rate: 1.0. Total 100. Time: 10.588
+iteration: 728. success rate: 1.0. Total 100. Time: 10.443
+iteration: 729. success rate: 1.0. Total 100. Time: 10.431
+iteration: 730. success rate: 1.0. Total 100. Time: 10.401
+iteration: 731. success rate: 1.0. Total 100. Time: 10.705
+iteration: 732. success rate: 1.0. Total 100. Time: 10.598
+iteration: 733. success rate: 1.0. Total 100. Time: 10.807
+iteration: 734. success rate: 1.0. Total 100. Time: 10.693
+iteration: 735. success rate: 1.0. Total 100. Time: 10.585
+evaluating model:
+evaluation success rate: 0.89. time: 13.776
+iteration: 736. success rate: 1.0. Total 100. Time: 10.801
+iteration: 737. success rate: 1.0. Total 100. Time: 10.782
+iteration: 738. success rate: 1.0. Total 100. Time: 10.356
+iteration: 739. success rate: 1.0. Total 100. Time: 10.116
+iteration: 740. success rate: 1.0. Total 100. Time: 10.306
+iteration: 741. success rate: 1.0. Total 100. Time: 11.113
+iteration: 742. success rate: 1.0. Total 100. Time: 10.499
+iteration: 743. success rate: 1.0. Total 100. Time: 10.549
+iteration: 744. success rate: 1.0. Total 100. Time: 10.522
+iteration: 745. success rate: 1.0. Total 100. Time: 10.908
+iteration: 746. success rate: 1.0. Total 100. Time: 10.185
+iteration: 747. success rate: 1.0. Total 100. Time: 10.714
+iteration: 748. success rate: 1.0. Total 100. Time: 10.156
+iteration: 749. success rate: 1.0. Total 100. Time: 10.293
+iteration: 750. success rate: 1.0. Total 100. Time: 10.425
+evaluating model:
+evaluation success rate: 0.92. time: 13.394
+iteration: 751. success rate: 1.0. Total 100. Time: 10.787
+iteration: 752. success rate: 1.0. Total 100. Time: 10.768
+iteration: 753. success rate: 1.0. Total 100. Time: 10.553
+iteration: 754. success rate: 1.0. Total 100. Time: 10.765
+iteration: 755. success rate: 1.0. Total 100. Time: 10.541
+iteration: 756. success rate: 1.0. Total 100. Time: 9.083
+iteration: 757. success rate: 1.0. Total 100. Time: 10.789
+iteration: 758. success rate: 1.0. Total 100. Time: 10.66
+iteration: 759. success rate: 1.0. Total 100. Time: 10.857
+iteration: 760. success rate: 1.0. Total 100. Time: 9.354
+iteration: 761. success rate: 1.0. Total 100. Time: 10.891
+iteration: 762. success rate: 1.0. Total 100. Time: 10.4
+iteration: 763. success rate: 1.0. Total 100. Time: 10.56
+iteration: 764. success rate: 1.0. Total 100. Time: 10.682
+iteration: 765. success rate: 1.0. Total 100. Time: 10.69
+evaluating model:
+evaluation success rate: 0.96. time: 13.11
+iteration: 766. success rate: 1.0. Total 100. Time: 10.708
+iteration: 767. success rate: 1.0. Total 100. Time: 10.723
+iteration: 768. success rate: 1.0. Total 100. Time: 10.619
+iteration: 769. success rate: 1.0. Total 100. Time: 10.621
+iteration: 770. success rate: 1.0. Total 100. Time: 9.443
+iteration: 771. success rate: 1.0. Total 100. Time: 10.515
+iteration: 772. success rate: 1.0. Total 100. Time: 10.546
+iteration: 773. success rate: 1.0. Total 100. Time: 11.061
+iteration: 774. success rate: 1.0. Total 100. Time: 10.756
+iteration: 775. success rate: 1.0. Total 100. Time: 10.62
+iteration: 776. success rate: 1.0. Total 100. Time: 10.559
+iteration: 777. success rate: 1.0. Total 100. Time: 10.547
+iteration: 778. success rate: 1.0. Total 100. Time: 10.569
+iteration: 779. success rate: 1.0. Total 100. Time: 10.675
+iteration: 780. success rate: 1.0. Total 100. Time: 10.742
+evaluating model:
+evaluation success rate: 0.94. time: 13.412
+iteration: 781. success rate: 1.0. Total 100. Time: 10.609
+iteration: 782. success rate: 1.0. Total 100. Time: 10.901
+iteration: 783. success rate: 1.0. Total 100. Time: 10.338
+iteration: 784. success rate: 1.0. Total 100. Time: 10.617
+iteration: 785. success rate: 1.0. Total 100. Time: 10.368
+iteration: 786. success rate: 1.0. Total 100. Time: 10.673
+iteration: 787. success rate: 1.0. Total 100. Time: 10.756
+iteration: 788. success rate: 1.0. Total 100. Time: 10.862
+iteration: 789. success rate: 1.0. Total 100. Time: 10.831
+iteration: 790. success rate: 1.0. Total 100. Time: 10.87
+iteration: 791. success rate: 1.0. Total 100. Time: 10.624
+iteration: 792. success rate: 1.0. Total 100. Time: 10.837
+iteration: 793. success rate: 1.0. Total 100. Time: 10.638
+iteration: 794. success rate: 1.0. Total 100. Time: 10.632
+iteration: 795. success rate: 1.0. Total 100. Time: 10.337
+evaluating model:
+evaluation success rate: 0.9. time: 13.846
+iteration: 796. success rate: 1.0. Total 100. Time: 10.345
+iteration: 797. success rate: 1.0. Total 100. Time: 10.642
+iteration: 798. success rate: 1.0. Total 100. Time: 10.474
+iteration: 799. success rate: 1.0. Total 100. Time: 10.807
+iteration: 800. success rate: 1.0. Total 100. Time: 10.324
+iteration: 801. success rate: 1.0. Total 100. Time: 10.723
+iteration: 802. success rate: 1.0. Total 100. Time: 10.52
+iteration: 803. success rate: 1.0. Total 100. Time: 11.034
+iteration: 804. success rate: 1.0. Total 100. Time: 10.505
+iteration: 805. success rate: 1.0. Total 100. Time: 10.823
+iteration: 806. success rate: 1.0. Total 100. Time: 10.324
+iteration: 807. success rate: 1.0. Total 100. Time: 10.951
+iteration: 808. success rate: 1.0. Total 100. Time: 10.725
+iteration: 809. success rate: 1.0. Total 100. Time: 10.436
+iteration: 810. success rate: 1.0. Total 100. Time: 10.807
+evaluating model:
+evaluation success rate: 0.94. time: 13.029
+iteration: 811. success rate: 1.0. Total 100. Time: 10.551
+iteration: 812. success rate: 1.0. Total 100. Time: 10.505
+iteration: 813. success rate: 1.0. Total 100. Time: 10.988
+iteration: 814. success rate: 1.0. Total 100. Time: 10.402
+iteration: 815. success rate: 1.0. Total 100. Time: 11.03
+iteration: 816. success rate: 1.0. Total 100. Time: 10.979
+iteration: 817. success rate: 1.0. Total 100. Time: 10.37
+iteration: 818. success rate: 1.0. Total 100. Time: 9.71
+iteration: 819. success rate: 1.0. Total 100. Time: 10.722
+iteration: 820. success rate: 1.0. Total 100. Time: 10.854
+iteration: 821. success rate: 1.0. Total 100. Time: 10.499
+iteration: 822. success rate: 1.0. Total 100. Time: 10.694
+iteration: 823. success rate: 1.0. Total 100. Time: 10.618
+iteration: 824. success rate: 1.0. Total 100. Time: 10.598
+iteration: 825. success rate: 1.0. Total 100. Time: 10.287
+evaluating model:
+evaluation success rate: 0.98. time: 12.314
+iteration: 826. success rate: 1.0. Total 100. Time: 10.52
+iteration: 827. success rate: 1.0. Total 100. Time: 10.646
+iteration: 828. success rate: 1.0. Total 100. Time: 10.618
+iteration: 829. success rate: 1.0. Total 100. Time: 10.703
+iteration: 830. success rate: 1.0. Total 100. Time: 10.645
+iteration: 831. success rate: 1.0. Total 100. Time: 10.356
+iteration: 832. success rate: 1.0. Total 100. Time: 10.667
+iteration: 833. success rate: 1.0. Total 100. Time: 10.987
+iteration: 834. success rate: 1.0. Total 100. Time: 10.692
+iteration: 835. success rate: 1.0. Total 100. Time: 10.66
+iteration: 836. success rate: 1.0. Total 100. Time: 10.319
+iteration: 837. success rate: 1.0. Total 100. Time: 10.156
+iteration: 838. success rate: 1.0. Total 100. Time: 10.572
+iteration: 839. success rate: 1.0. Total 100. Time: 10.991
+iteration: 840. success rate: 1.0. Total 100. Time: 10.272
+evaluating model:
+evaluation success rate: 0.9. time: 13.824
+iteration: 841. success rate: 1.0. Total 100. Time: 10.741
+iteration: 842. success rate: 1.0. Total 100. Time: 10.397
+iteration: 843. success rate: 1.0. Total 100. Time: 10.959
+iteration: 844. success rate: 1.0. Total 100. Time: 10.454
+iteration: 845. success rate: 1.0. Total 100. Time: 10.695
+iteration: 846. success rate: 1.0. Total 100. Time: 10.852
+iteration: 847. success rate: 1.0. Total 100. Time: 10.379
+iteration: 848. success rate: 1.0. Total 100. Time: 10.491
+iteration: 849. success rate: 1.0. Total 100. Time: 10.374
+iteration: 850. success rate: 1.0. Total 100. Time: 10.632
+iteration: 851. success rate: 1.0. Total 100. Time: 10.867
+iteration: 852. success rate: 1.0. Total 100. Time: 10.665
+iteration: 853. success rate: 1.0. Total 100. Time: 10.489
+iteration: 854. success rate: 1.0. Total 100. Time: 10.913
+iteration: 855. success rate: 1.0. Total 100. Time: 10.774
+evaluating model:
+evaluation success rate: 0.93. time: 13.311
+iteration: 856. success rate: 1.0. Total 100. Time: 10.558
+iteration: 857. success rate: 1.0. Total 100. Time: 10.809
+iteration: 858. success rate: 1.0. Total 100. Time: 11.032
+iteration: 859. success rate: 1.0. Total 100. Time: 10.699
+iteration: 860. success rate: 1.0. Total 100. Time: 9.725
+iteration: 861. success rate: 1.0. Total 100. Time: 10.564
+iteration: 862. success rate: 1.0. Total 100. Time: 10.466
+iteration: 863. success rate: 1.0. Total 100. Time: 10.936
+iteration: 864. success rate: 1.0. Total 100. Time: 10.818
+iteration: 865. success rate: 1.0. Total 100. Time: 10.996
+iteration: 866. success rate: 1.0. Total 100. Time: 10.912
+iteration: 867. success rate: 1.0. Total 100. Time: 10.55
+iteration: 868. success rate: 1.0. Total 100. Time: 10.759
+iteration: 869. success rate: 1.0. Total 100. Time: 10.604
+iteration: 870. success rate: 1.0. Total 100. Time: 9.671
+evaluating model:
+evaluation success rate: 0.97. time: 13.024
+iteration: 871. success rate: 1.0. Total 100. Time: 10.766
+iteration: 872. success rate: 1.0. Total 100. Time: 10.701
+iteration: 873. success rate: 1.0. Total 100. Time: 10.739
+iteration: 874. success rate: 1.0. Total 100. Time: 10.686
+iteration: 875. success rate: 1.0. Total 100. Time: 10.478
+iteration: 876. success rate: 1.0. Total 100. Time: 10.907
+iteration: 877. success rate: 1.0. Total 100. Time: 10.424
+iteration: 878. success rate: 1.0. Total 100. Time: 10.955
+iteration: 879. success rate: 1.0. Total 100. Time: 10.23
+iteration: 880. success rate: 1.0. Total 100. Time: 10.913
+iteration: 881. success rate: 1.0. Total 100. Time: 10.698
+iteration: 882. success rate: 1.0. Total 100. Time: 10.772
+iteration: 883. success rate: 1.0. Total 100. Time: 10.883
+iteration: 884. success rate: 1.0. Total 100. Time: 10.698
+iteration: 885. success rate: 1.0. Total 100. Time: 10.677
+evaluating model:
+evaluation success rate: 0.93. time: 13.322
+iteration: 886. success rate: 1.0. Total 100. Time: 10.487
+iteration: 887. success rate: 1.0. Total 100. Time: 10.841
+iteration: 888. success rate: 1.0. Total 100. Time: 10.326
+iteration: 889. success rate: 1.0. Total 100. Time: 10.799
+iteration: 890. success rate: 1.0. Total 100. Time: 11.028
+iteration: 891. success rate: 1.0. Total 100. Time: 10.571
+iteration: 892. success rate: 1.0. Total 100. Time: 10.638
+iteration: 893. success rate: 1.0. Total 100. Time: 10.565
+iteration: 894. success rate: 1.0. Total 100. Time: 10.54
+iteration: 895. success rate: 1.0. Total 100. Time: 10.316
+iteration: 896. success rate: 1.0. Total 100. Time: 10.443
+iteration: 897. success rate: 1.0. Total 100. Time: 10.784
+iteration: 898. success rate: 1.0. Total 100. Time: 10.56
+iteration: 899. success rate: 1.0. Total 100. Time: 10.758
+iteration: 900. success rate: 1.0. Total 100. Time: 10.942
+evaluating model:
+evaluation success rate: 0.93. time: 13.236
+iteration: 901. success rate: 1.0. Total 100. Time: 10.556
+iteration: 902. success rate: 1.0. Total 100. Time: 9.772
+iteration: 903. success rate: 1.0. Total 100. Time: 10.73
+iteration: 904. success rate: 1.0. Total 100. Time: 10.474
+iteration: 905. success rate: 1.0. Total 100. Time: 10.861
+iteration: 906. success rate: 1.0. Total 100. Time: 10.705
+iteration: 907. success rate: 1.0. Total 100. Time: 10.606
+iteration: 908. success rate: 1.0. Total 100. Time: 10.877
+iteration: 909. success rate: 1.0. Total 100. Time: 10.67
+iteration: 910. success rate: 1.0. Total 100. Time: 10.256
+iteration: 911. success rate: 1.0. Total 100. Time: 10.547
+iteration: 912. success rate: 1.0. Total 100. Time: 10.722
+iteration: 913. success rate: 1.0. Total 100. Time: 10.706
+iteration: 914. success rate: 1.0. Total 100. Time: 10.537
+iteration: 915. success rate: 1.0. Total 100. Time: 10.953
+evaluating model:
+evaluation success rate: 0.92. time: 13.565
+iteration: 916. success rate: 1.0. Total 100. Time: 10.638
+iteration: 917. success rate: 1.0. Total 100. Time: 10.693
+iteration: 918. success rate: 1.0. Total 100. Time: 10.473
+iteration: 919. success rate: 1.0. Total 100. Time: 10.392
+iteration: 920. success rate: 1.0. Total 100. Time: 10.789
+iteration: 921. success rate: 1.0. Total 100. Time: 10.539
+iteration: 922. success rate: 1.0. Total 100. Time: 10.497
+iteration: 923. success rate: 1.0. Total 100. Time: 10.706
+iteration: 924. success rate: 1.0. Total 100. Time: 10.472
+iteration: 925. success rate: 1.0. Total 100. Time: 10.699
+iteration: 926. success rate: 1.0. Total 100. Time: 10.781
+iteration: 927. success rate: 1.0. Total 100. Time: 10.721
+iteration: 928. success rate: 1.0. Total 100. Time: 10.684
+iteration: 929. success rate: 1.0. Total 100. Time: 10.907
+iteration: 930. success rate: 1.0. Total 100. Time: 10.157
+evaluating model:
+evaluation success rate: 0.95. time: 13.293
+iteration: 931. success rate: 1.0. Total 100. Time: 10.585
+iteration: 932. success rate: 1.0. Total 100. Time: 10.539
+iteration: 933. success rate: 1.0. Total 100. Time: 10.315
+iteration: 934. success rate: 1.0. Total 100. Time: 10.637
+iteration: 935. success rate: 1.0. Total 100. Time: 10.255
+iteration: 936. success rate: 1.0. Total 100. Time: 11.092
+iteration: 937. success rate: 1.0. Total 100. Time: 10.633
+iteration: 938. success rate: 1.0. Total 100. Time: 10.504
+iteration: 939. success rate: 1.0. Total 100. Time: 10.739
+iteration: 940. success rate: 1.0. Total 100. Time: 10.515
+iteration: 941. success rate: 1.0. Total 100. Time: 10.711
+iteration: 942. success rate: 1.0. Total 100. Time: 10.727
+iteration: 943. success rate: 1.0. Total 100. Time: 10.615
+iteration: 944. success rate: 1.0. Total 100. Time: 10.567
+iteration: 945. success rate: 1.0. Total 100. Time: 11.019
+evaluating model:
+evaluation success rate: 0.98. time: 12.778
+iteration: 946. success rate: 1.0. Total 100. Time: 10.804
+iteration: 947. success rate: 1.0. Total 100. Time: 10.36
+iteration: 948. success rate: 1.0. Total 100. Time: 10.555
+iteration: 949. success rate: 1.0. Total 100. Time: 10.823
+iteration: 950. success rate: 1.0. Total 100. Time: 10.576
+iteration: 951. success rate: 1.0. Total 100. Time: 10.65
+iteration: 952. success rate: 1.0. Total 100. Time: 10.368
+iteration: 953. success rate: 1.0. Total 100. Time: 10.944
+iteration: 954. success rate: 1.0. Total 100. Time: 10.746
+iteration: 955. success rate: 1.0. Total 100. Time: 10.624
+iteration: 956. success rate: 1.0. Total 100. Time: 10.525
+iteration: 957. success rate: 1.0. Total 100. Time: 10.591
+iteration: 958. success rate: 1.0. Total 100. Time: 10.733
+iteration: 959. success rate: 1.0. Total 100. Time: 10.593
+iteration: 960. success rate: 1.0. Total 100. Time: 10.609
+evaluating model:
+evaluation success rate: 0.97. time: 13.031
+iteration: 961. success rate: 1.0. Total 100. Time: 10.593
+iteration: 962. success rate: 1.0. Total 100. Time: 10.787
+iteration: 963. success rate: 1.0. Total 100. Time: 10.797
+iteration: 964. success rate: 1.0. Total 100. Time: 10.423
+iteration: 965. success rate: 1.0. Total 100. Time: 10.747
+iteration: 966. success rate: 1.0. Total 100. Time: 10.685
+iteration: 967. success rate: 1.0. Total 100. Time: 10.802
+iteration: 968. success rate: 1.0. Total 100. Time: 10.547
+iteration: 969. success rate: 1.0. Total 100. Time: 10.703
+iteration: 970. success rate: 1.0. Total 100. Time: 10.698
+iteration: 971. success rate: 1.0. Total 100. Time: 10.324
+iteration: 972. success rate: 1.0. Total 100. Time: 10.968
+iteration: 973. success rate: 1.0. Total 100. Time: 10.662
+iteration: 974. success rate: 1.0. Total 100. Time: 10.357
+iteration: 975. success rate: 1.0. Total 100. Time: 10.754
+evaluating model:
+evaluation success rate: 0.97. time: 12.685
+iteration: 976. success rate: 1.0. Total 100. Time: 10.471
+iteration: 977. success rate: 1.0. Total 100. Time: 10.38
+iteration: 978. success rate: 1.0. Total 100. Time: 10.554
+iteration: 979. success rate: 1.0. Total 100. Time: 10.835
+iteration: 980. success rate: 1.0. Total 100. Time: 10.473
+iteration: 981. success rate: 1.0. Total 100. Time: 10.217
+iteration: 982. success rate: 1.0. Total 100. Time: 10.765
+iteration: 983. success rate: 1.0. Total 100. Time: 10.697
+iteration: 984. success rate: 1.0. Total 100. Time: 10.682
+iteration: 985. success rate: 1.0. Total 100. Time: 11.233
+iteration: 986. success rate: 1.0. Total 100. Time: 10.581
+iteration: 987. success rate: 1.0. Total 100. Time: 10.497
+iteration: 988. success rate: 1.0. Total 100. Time: 10.681
+iteration: 989. success rate: 1.0. Total 100. Time: 10.396
+iteration: 990. success rate: 1.0. Total 100. Time: 10.606
+evaluating model:
+evaluation success rate: 0.93. time: 13.373
+iteration: 991. success rate: 1.0. Total 100. Time: 10.555
+iteration: 992. success rate: 1.0. Total 100. Time: 10.824
+iteration: 993. success rate: 1.0. Total 100. Time: 10.926
+iteration: 994. success rate: 1.0. Total 100. Time: 10.203
+iteration: 995. success rate: 1.0. Total 100. Time: 10.962
+iteration: 996. success rate: 1.0. Total 100. Time: 10.695
+iteration: 997. success rate: 1.0. Total 100. Time: 10.499
+iteration: 998. success rate: 1.0. Total 100. Time: 10.639
+iteration: 999. success rate: 1.0. Total 100. Time: 10.55
+
+##################################
+Finished training on blocksmulti
+Best evaluation success rate: 1.0
+##################################
+

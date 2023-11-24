@@ -1,0 +1,598 @@
+depots
+
+##################################
+Starting training on depots
+##################################
+
+iteration: 0. success rate: 0.02. Total 27. Time: 19.998
+evaluating model:
+evaluation success rate: 0.0. time: 124.075
+iteration: 1. success rate: 0.01. Total 202. Time: 18.452
+iteration: 2. success rate: 0.01. Total 212. Time: 21.089
+iteration: 3. success rate: 0.01. Total 219. Time: 19.676
+iteration: 4. success rate: 0.0. Total 226. Time: 20.666
+iteration: 5. success rate: 0.01. Total 227. Time: 20.092
+iteration: 6. success rate: 0.02. Total 227. Time: 20.925
+iteration: 7. success rate: 0.01. Total 228. Time: 21.03
+iteration: 8. success rate: 0.01. Total 228. Time: 24.867
+iteration: 9. success rate: 0.01. Total 228. Time: 28.427
+iteration: 10. success rate: 0.02. Total 228. Time: 20.662
+iteration: 11. success rate: 0.0. Total 228. Time: 18.818
+iteration: 12. success rate: 0.01. Total 228. Time: 19.185
+iteration: 13. success rate: 0.03. Total 228. Time: 17.925
+iteration: 14. success rate: 0.02. Total 228. Time: 27.343
+iteration: 15. success rate: 0.03. Total 228. Time: 26.678
+evaluating model:
+evaluation success rate: 0.0. time: 128.913
+iteration: 16. success rate: 0.02. Total 228. Time: 19.975
+iteration: 17. success rate: 0.01. Total 228. Time: 31.255
+iteration: 18. success rate: 0.03. Total 228. Time: 29.852
+iteration: 19. success rate: 0.03. Total 228. Time: 24.662
+iteration: 20. success rate: 0.02. Total 228. Time: 23.258
+iteration: 21. success rate: 0.0. Total 228. Time: 20.991
+iteration: 22. success rate: 0.02. Total 228. Time: 19.973
+iteration: 23. success rate: 0.01. Total 228. Time: 31.409
+iteration: 24. success rate: 0.01. Total 228. Time: 25.927
+iteration: 25. success rate: 0.0. Total 228. Time: 20.806
+iteration: 26. success rate: 0.0. Total 228. Time: 23.966
+iteration: 27. success rate: 0.0. Total 228. Time: 30.994
+iteration: 28. success rate: 0.0. Total 228. Time: 31.765
+iteration: 29. success rate: 0.0. Total 228. Time: 32.683
+iteration: 30. success rate: 0.0. Total 228. Time: 31.383
+evaluating model:
+evaluation success rate: 0.0. time: 135.158
+iteration: 31. success rate: 0.0. Total 228. Time: 29.979
+iteration: 32. success rate: 0.0. Total 228. Time: 31.332
+iteration: 33. success rate: 0.0. Total 228. Time: 27.948
+iteration: 34. success rate: 0.0. Total 228. Time: 28.574
+iteration: 35. success rate: 0.0. Total 228. Time: 29.785
+iteration: 36. success rate: 0.0. Total 228. Time: 22.01
+iteration: 37. success rate: 0.0. Total 228. Time: 19.379
+iteration: 38. success rate: 0.01. Total 228. Time: 18.933
+iteration: 39. success rate: 0.02. Total 228. Time: 18.404
+iteration: 40. success rate: 0.02. Total 228. Time: 20.276
+iteration: 41. success rate: 0.04. Total 228. Time: 19.951
+iteration: 42. success rate: 0.01. Total 228. Time: 31.802
+iteration: 43. success rate: 0.02. Total 228. Time: 29.696
+iteration: 44. success rate: 0.02. Total 228. Time: 27.082
+iteration: 45. success rate: 0.01. Total 228. Time: 32.605
+evaluating model:
+evaluation success rate: 0.0. time: 139.441
+iteration: 46. success rate: 0.0. Total 228. Time: 30.314
+iteration: 47. success rate: 0.02. Total 228. Time: 31.893
+iteration: 48. success rate: 0.06. Total 228. Time: 32.188
+iteration: 49. success rate: 0.0. Total 228. Time: 25.697
+iteration: 50. success rate: 0.02. Total 228. Time: 21.827
+iteration: 51. success rate: 0.02. Total 228. Time: 21.054
+iteration: 52. success rate: 0.02. Total 228. Time: 19.551
+iteration: 53. success rate: 0.03. Total 228. Time: 20.231
+iteration: 54. success rate: 0.0. Total 228. Time: 22.191
+iteration: 55. success rate: 0.01. Total 228. Time: 25.536
+iteration: 56. success rate: 0.03. Total 228. Time: 33.269
+iteration: 57. success rate: 0.04. Total 228. Time: 34.26
+iteration: 58. success rate: 0.01. Total 228. Time: 34.452
+iteration: 59. success rate: 0.02. Total 228. Time: 34.001
+iteration: 60. success rate: 0.06. Total 228. Time: 32.505
+evaluating model:
+evaluation success rate: 0.0. time: 143.341
+iteration: 61. success rate: 0.01. Total 228. Time: 31.454
+iteration: 62. success rate: 0.01. Total 228. Time: 32.37
+iteration: 63. success rate: 0.02. Total 228. Time: 30.782
+iteration: 64. success rate: 0.03. Total 228. Time: 32.151
+iteration: 65. success rate: 0.04. Total 228. Time: 32.4
+iteration: 66. success rate: 0.04. Total 228. Time: 30.158
+iteration: 67. success rate: 0.0. Total 228. Time: 31.819
+iteration: 68. success rate: 0.05. Total 228. Time: 33.118
+iteration: 69. success rate: 0.01. Total 228. Time: 33.166
+iteration: 70. success rate: 0.0. Total 228. Time: 31.862
+iteration: 71. success rate: 0.03. Total 228. Time: 32.033
+iteration: 72. success rate: 0.03. Total 228. Time: 33.601
+iteration: 73. success rate: 0.02. Total 228. Time: 32.253
+iteration: 74. success rate: 0.01. Total 228. Time: 32.945
+iteration: 75. success rate: 0.0. Total 228. Time: 29.58
+evaluating model:
+evaluation success rate: 0.0. time: 138.918
+iteration: 76. success rate: 0.03. Total 228. Time: 32.962
+iteration: 77. success rate: 0.02. Total 228. Time: 30.737
+iteration: 78. success rate: 0.02. Total 228. Time: 32.433
+iteration: 79. success rate: 0.02. Total 228. Time: 34.183
+iteration: 80. success rate: 0.04. Total 228. Time: 32.932
+iteration: 81. success rate: 0.03. Total 228. Time: 32.645
+iteration: 82. success rate: 0.0. Total 228. Time: 30.992
+iteration: 83. success rate: 0.03. Total 228. Time: 31.498
+iteration: 84. success rate: 0.0. Total 228. Time: 30.564
+iteration: 85. success rate: 0.03. Total 228. Time: 31.983
+iteration: 86. success rate: 0.01. Total 228. Time: 32.015
+iteration: 87. success rate: 0.01. Total 228. Time: 32.192
+iteration: 88. success rate: 0.02. Total 228. Time: 29.42
+iteration: 89. success rate: 0.01. Total 228. Time: 32.776
+iteration: 90. success rate: 0.01. Total 228. Time: 31.388
+evaluating model:
+evaluation success rate: 0.0. time: 156.203
+iteration: 91. success rate: 0.0. Total 228. Time: 38.144
+iteration: 92. success rate: 0.0. Total 228. Time: 32.444
+iteration: 93. success rate: 0.03. Total 228. Time: 39.105
+iteration: 94. success rate: 0.0. Total 228. Time: 37.424
+iteration: 95. success rate: 0.01. Total 228. Time: 36.833
+iteration: 96. success rate: 0.02. Total 228. Time: 37.145
+iteration: 97. success rate: 0.02. Total 228. Time: 36.33
+iteration: 98. success rate: 0.01. Total 228. Time: 22.899
+iteration: 99. success rate: 0.01. Total 228. Time: 23.582
+iteration: 100. success rate: 0.01. Total 228. Time: 24.608
+iteration: 101. success rate: 0.05. Total 228. Time: 32.245
+iteration: 102. success rate: 0.02. Total 228. Time: 26.608
+iteration: 103. success rate: 0.0. Total 228. Time: 30.054
+iteration: 104. success rate: 0.03. Total 228. Time: 29.733
+iteration: 105. success rate: 0.01. Total 228. Time: 28.343
+evaluating model:
+evaluation success rate: 0.0. time: 181.354
+iteration: 106. success rate: 0.01. Total 228. Time: 24.085
+iteration: 107. success rate: 0.0. Total 228. Time: 24.421
+iteration: 108. success rate: 0.02. Total 228. Time: 28.994
+iteration: 109. success rate: 0.01. Total 228. Time: 22.835
+iteration: 110. success rate: 0.01. Total 228. Time: 24.132
+iteration: 111. success rate: 0.0. Total 228. Time: 31.244
+iteration: 112. success rate: 0.0. Total 228. Time: 29.906
+iteration: 113. success rate: 0.02. Total 228. Time: 27.511
+iteration: 114. success rate: 0.01. Total 228. Time: 27.664
+iteration: 115. success rate: 0.01. Total 228. Time: 25.519
+iteration: 116. success rate: 0.03. Total 228. Time: 34.766
+iteration: 117. success rate: 0.01. Total 228. Time: 37.979
+iteration: 118. success rate: 0.02. Total 228. Time: 33.654
+iteration: 119. success rate: 0.0. Total 228. Time: 34.758
+iteration: 120. success rate: 0.01. Total 228. Time: 38.393
+evaluating model:
+evaluation success rate: 0.0. time: 175.665
+iteration: 121. success rate: 0.05. Total 228. Time: 35.141
+iteration: 122. success rate: 0.0. Total 228. Time: 38.011
+iteration: 123. success rate: 0.03. Total 228. Time: 25.909
+iteration: 124. success rate: 0.02. Total 228. Time: 29.875
+iteration: 125. success rate: 0.01. Total 228. Time: 21.774
+iteration: 126. success rate: 0.03. Total 228. Time: 21.945
+iteration: 127. success rate: 0.04. Total 228. Time: 22.911
+iteration: 128. success rate: 0.06. Total 228. Time: 24.319
+iteration: 129. success rate: 0.02. Total 228. Time: 32.454
+iteration: 130. success rate: 0.01. Total 228. Time: 37.688
+iteration: 131. success rate: 0.01. Total 228. Time: 38.699
+iteration: 132. success rate: 0.03. Total 228. Time: 34.911
+iteration: 133. success rate: 0.02. Total 228. Time: 38.497
+iteration: 134. success rate: 0.02. Total 228. Time: 34.776
+iteration: 135. success rate: 0.0. Total 228. Time: 36.384
+evaluating model:
+evaluation success rate: 0.0. time: 175.355
+iteration: 136. success rate: 0.0. Total 228. Time: 34.912
+iteration: 137. success rate: 0.02. Total 228. Time: 35.378
+iteration: 138. success rate: 0.01. Total 228. Time: 36.038
+iteration: 139. success rate: 0.06. Total 228. Time: 38.321
+iteration: 140. success rate: 0.0. Total 228. Time: 34.822
+iteration: 141. success rate: 0.0. Total 228. Time: 34.339
+iteration: 142. success rate: 0.02. Total 228. Time: 36.233
+iteration: 143. success rate: 0.0. Total 228. Time: 34.024
+iteration: 144. success rate: 0.04. Total 228. Time: 36.24
+iteration: 145. success rate: 0.05. Total 228. Time: 34.027
+iteration: 146. success rate: 0.04. Total 228. Time: 36.759
+iteration: 147. success rate: 0.03. Total 228. Time: 38.703
+iteration: 148. success rate: 0.07. Total 228. Time: 23.933
+iteration: 149. success rate: 0.0. Total 228. Time: 25.723
+iteration: 150. success rate: 0.02. Total 228. Time: 22.873
+evaluating model:
+evaluation success rate: 0.0. time: 177.279
+iteration: 151. success rate: 0.0. Total 228. Time: 23.242
+iteration: 152. success rate: 0.01. Total 228. Time: 23.799
+iteration: 153. success rate: 0.0. Total 228. Time: 24.646
+iteration: 154. success rate: 0.04. Total 228. Time: 26.358
+iteration: 155. success rate: 0.03. Total 228. Time: 25.841
+iteration: 156. success rate: 0.02. Total 228. Time: 36.796
+iteration: 157. success rate: 0.01. Total 228. Time: 35.229
+iteration: 158. success rate: 0.02. Total 228. Time: 22.5
+iteration: 159. success rate: 0.0. Total 228. Time: 22.522
+iteration: 160. success rate: 0.05. Total 228. Time: 22.066
+iteration: 161. success rate: 0.03. Total 228. Time: 23.891
+iteration: 162. success rate: 0.06. Total 228. Time: 23.206
+iteration: 163. success rate: 0.03. Total 228. Time: 23.282
+iteration: 164. success rate: 0.0. Total 228. Time: 22.627
+iteration: 165. success rate: 0.0. Total 228. Time: 29.844
+evaluating model:
+evaluation success rate: 0.0. time: 177.235
+iteration: 166. success rate: 0.01. Total 228. Time: 39.009
+iteration: 167. success rate: 0.0. Total 228. Time: 37.46
+iteration: 168. success rate: 0.04. Total 228. Time: 36.619
+iteration: 169. success rate: 0.0. Total 228. Time: 36.094
+iteration: 170. success rate: 0.03. Total 228. Time: 35.534
+iteration: 171. success rate: 0.01. Total 228. Time: 37.008
+iteration: 172. success rate: 0.02. Total 228. Time: 35.057
+iteration: 173. success rate: 0.04. Total 228. Time: 27.894
+iteration: 174. success rate: 0.02. Total 228. Time: 32.847
+iteration: 175. success rate: 0.0. Total 228. Time: 30.455
+iteration: 176. success rate: 0.01. Total 228. Time: 29.2
+iteration: 177. success rate: 0.0. Total 228. Time: 31.728
+iteration: 178. success rate: 0.01. Total 228. Time: 29.957
+iteration: 179. success rate: 0.02. Total 228. Time: 21.261
+iteration: 180. success rate: 0.03. Total 228. Time: 21.974
+evaluating model:
+evaluation success rate: 0.0. time: 181.115
+iteration: 181. success rate: 0.04. Total 228. Time: 26.077
+iteration: 182. success rate: 0.04. Total 228. Time: 24.297
+iteration: 183. success rate: 0.02. Total 228. Time: 22.742
+iteration: 184. success rate: 0.05. Total 228. Time: 36.274
+iteration: 185. success rate: 0.01. Total 228. Time: 25.874
+iteration: 186. success rate: 0.02. Total 228. Time: 23.134
+iteration: 187. success rate: 0.02. Total 228. Time: 22.997
+iteration: 188. success rate: 0.03. Total 228. Time: 23.076
+iteration: 189. success rate: 0.03. Total 228. Time: 23.12
+iteration: 190. success rate: 0.03. Total 228. Time: 25.819
+iteration: 191. success rate: 0.03. Total 228. Time: 28.772
+iteration: 192. success rate: 0.0. Total 228. Time: 33.292
+iteration: 193. success rate: 0.0. Total 228. Time: 35.069
+iteration: 194. success rate: 0.0. Total 228. Time: 39.741
+iteration: 195. success rate: 0.02. Total 228. Time: 34.304
+evaluating model:
+evaluation success rate: 0.0. time: 193.304
+iteration: 196. success rate: 0.01. Total 228. Time: 37.264
+iteration: 197. success rate: 0.04. Total 228. Time: 33.756
+iteration: 198. success rate: 0.02. Total 228. Time: 31.313
+iteration: 199. success rate: 0.03. Total 228. Time: 28.49
+iteration: 200. success rate: 0.0. Total 228. Time: 33.981
+iteration: 201. success rate: 0.05. Total 228. Time: 30.284
+iteration: 202. success rate: 0.0. Total 228. Time: 23.833
+iteration: 203. success rate: 0.02. Total 228. Time: 22.596
+iteration: 204. success rate: 0.03. Total 228. Time: 22.171
+iteration: 205. success rate: 0.04. Total 228. Time: 23.355
+iteration: 206. success rate: 0.08. Total 228. Time: 35.535
+iteration: 207. success rate: 0.02. Total 228. Time: 24.99
+iteration: 208. success rate: 0.05. Total 228. Time: 24.038
+iteration: 209. success rate: 0.05. Total 228. Time: 21.405
+iteration: 210. success rate: 0.09. Total 228. Time: 25.531
+evaluating model:
+evaluation success rate: 0.0. time: 188.324
+iteration: 211. success rate: 0.01. Total 228. Time: 24.912
+iteration: 212. success rate: 0.03. Total 228. Time: 23.154
+iteration: 213. success rate: 0.06. Total 228. Time: 32.533
+iteration: 214. success rate: 0.05. Total 228. Time: 34.601
+iteration: 215. success rate: 0.03. Total 228. Time: 26.7
+iteration: 216. success rate: 0.08. Total 228. Time: 35.768
+iteration: 217. success rate: 0.09. Total 228. Time: 38.065
+iteration: 218. success rate: 0.05. Total 228. Time: 25.904
+iteration: 219. success rate: 0.05. Total 228. Time: 37.017
+iteration: 220. success rate: 0.11. Total 228. Time: 22.708
+iteration: 221. success rate: 0.05. Total 228. Time: 30.265
+iteration: 222. success rate: 0.09. Total 228. Time: 29.796
+iteration: 223. success rate: 0.09. Total 228. Time: 34.252
+iteration: 224. success rate: 0.13. Total 228. Time: 23.543
+iteration: 225. success rate: 0.15. Total 228. Time: 22.942
+evaluating model:
+evaluation success rate: 0.0. time: 185.698
+iteration: 226. success rate: 0.16. Total 228. Time: 22.872
+iteration: 227. success rate: 0.27. Total 228. Time: 21.196
+iteration: 228. success rate: 0.19. Total 228. Time: 27.24
+iteration: 229. success rate: 0.29. Total 228. Time: 28.582
+iteration: 230. success rate: 0.35. Total 228. Time: 32.689
+iteration: 231. success rate: 0.29. Total 228. Time: 34.017
+iteration: 232. success rate: 0.34. Total 228. Time: 22.093
+iteration: 233. success rate: 0.3. Total 228. Time: 24.18
+iteration: 234. success rate: 0.34. Total 228. Time: 33.527
+iteration: 235. success rate: 0.39. Total 228. Time: 33.004
+iteration: 236. success rate: 0.55. Total 228. Time: 31.408
+iteration: 237. success rate: 0.46. Total 228. Time: 32.105
+iteration: 238. success rate: 0.57. Total 228. Time: 31.785
+iteration: 239. success rate: 0.62. Total 228. Time: 30.361
+iteration: 240. success rate: 0.53. Total 228. Time: 29.774
+evaluating model:
+evaluation success rate: 0.0. time: 182.912
+iteration: 241. success rate: 0.68. Total 228. Time: 25.219
+iteration: 242. success rate: 0.7. Total 228. Time: 25.74
+iteration: 243. success rate: 0.71. Total 228. Time: 27.472
+iteration: 244. success rate: 0.71. Total 228. Time: 26.439
+iteration: 245. success rate: 0.76. Total 228. Time: 27.269
+iteration: 246. success rate: 0.81. Total 228. Time: 28.609
+iteration: 247. success rate: 0.7. Total 228. Time: 25.715
+iteration: 248. success rate: 0.8. Total 228. Time: 25.531
+iteration: 249. success rate: 0.75. Total 228. Time: 23.985
+iteration: 250. success rate: 0.83. Total 228. Time: 23.809
+iteration: 251. success rate: 0.81. Total 228. Time: 24.881
+iteration: 252. success rate: 0.85. Total 228. Time: 23.845
+iteration: 253. success rate: 0.84. Total 228. Time: 24.915
+iteration: 254. success rate: 0.76. Total 228. Time: 24.403
+iteration: 255. success rate: 0.73. Total 228. Time: 27.222
+evaluating model:
+evaluation success rate: 0.03. time: 179.331
+iteration: 256. success rate: 0.86. Total 228. Time: 26.368
+iteration: 257. success rate: 0.83. Total 228. Time: 24.013
+iteration: 258. success rate: 0.86. Total 228. Time: 24.78
+iteration: 259. success rate: 0.78. Total 228. Time: 26.341
+iteration: 260. success rate: 0.88. Total 228. Time: 25.379
+iteration: 261. success rate: 0.79. Total 228. Time: 28.067
+iteration: 262. success rate: 0.82. Total 228. Time: 23.765
+iteration: 263. success rate: 0.75. Total 228. Time: 27.847
+iteration: 264. success rate: 0.81. Total 228. Time: 26.412
+iteration: 265. success rate: 0.73. Total 228. Time: 18.542
+iteration: 266. success rate: 0.87. Total 228. Time: 24.479
+iteration: 267. success rate: 0.77. Total 228. Time: 24.709
+iteration: 268. success rate: 0.77. Total 228. Time: 24.544
+iteration: 269. success rate: 0.84. Total 228. Time: 22.655
+iteration: 270. success rate: 0.79. Total 228. Time: 26.074
+evaluating model:
+evaluation success rate: 0.01. time: 174.913
+iteration: 271. success rate: 0.85. Total 228. Time: 23.374
+iteration: 272. success rate: 0.8. Total 228. Time: 23.972
+iteration: 273. success rate: 0.84. Total 228. Time: 24.069
+iteration: 274. success rate: 0.87. Total 228. Time: 23.658
+iteration: 275. success rate: 0.88. Total 228. Time: 16.73
+iteration: 276. success rate: 0.88. Total 228. Time: 22.87
+iteration: 277. success rate: 0.88. Total 228. Time: 23.335
+iteration: 278. success rate: 0.84. Total 228. Time: 25.928
+iteration: 279. success rate: 0.91. Total 228. Time: 23.944
+iteration: 280. success rate: 0.84. Total 228. Time: 22.844
+iteration: 281. success rate: 0.85. Total 228. Time: 24.275
+iteration: 282. success rate: 0.84. Total 228. Time: 23.844
+iteration: 283. success rate: 0.82. Total 228. Time: 22.937
+iteration: 284. success rate: 0.86. Total 228. Time: 25.444
+iteration: 285. success rate: 0.95. Total 228. Time: 23.03
+evaluating model:
+evaluation success rate: 0.0. time: 174.507
+iteration: 286. success rate: 0.92. Total 228. Time: 24.059
+iteration: 287. success rate: 0.88. Total 228. Time: 23.914
+iteration: 288. success rate: 0.91. Total 228. Time: 23.176
+iteration: 289. success rate: 0.9. Total 228. Time: 23.136
+iteration: 290. success rate: 0.8. Total 228. Time: 23.666
+iteration: 291. success rate: 0.86. Total 228. Time: 22.678
+iteration: 292. success rate: 0.86. Total 228. Time: 23.62
+iteration: 293. success rate: 0.89. Total 228. Time: 22.169
+iteration: 294. success rate: 0.92. Total 228. Time: 22.826
+iteration: 295. success rate: 0.95. Total 228. Time: 22.246
+iteration: 296. success rate: 0.88. Total 228. Time: 24.394
+iteration: 297. success rate: 0.91. Total 228. Time: 23.763
+iteration: 298. success rate: 0.9. Total 228. Time: 22.8
+iteration: 299. success rate: 0.94. Total 228. Time: 21.536
+iteration: 300. success rate: 0.84. Total 228. Time: 22.113
+evaluating model:
+evaluation success rate: 0.02. time: 180.321
+iteration: 301. success rate: 0.94. Total 228. Time: 21.666
+iteration: 302. success rate: 0.88. Total 228. Time: 22.684
+iteration: 303. success rate: 0.92. Total 228. Time: 21.417
+iteration: 304. success rate: 0.92. Total 228. Time: 23.684
+iteration: 305. success rate: 0.93. Total 228. Time: 23.092
+iteration: 306. success rate: 0.92. Total 228. Time: 21.559
+iteration: 307. success rate: 0.95. Total 228. Time: 20.948
+iteration: 308. success rate: 0.93. Total 228. Time: 22.169
+iteration: 309. success rate: 0.92. Total 228. Time: 21.16
+iteration: 310. success rate: 0.97. Total 228. Time: 21.176
+iteration: 311. success rate: 0.91. Total 228. Time: 20.603
+iteration: 312. success rate: 0.95. Total 228. Time: 18.565
+iteration: 313. success rate: 0.96. Total 228. Time: 21.718
+iteration: 314. success rate: 0.93. Total 228. Time: 20.915
+iteration: 315. success rate: 0.94. Total 228. Time: 21.47
+evaluating model:
+evaluation success rate: 0.06. time: 174.679
+iteration: 316. success rate: 0.9. Total 228. Time: 21.522
+iteration: 317. success rate: 0.96. Total 228. Time: 22.181
+iteration: 318. success rate: 0.98. Total 228. Time: 21.511
+iteration: 319. success rate: 0.91. Total 228. Time: 21.913
+iteration: 320. success rate: 0.94. Total 228. Time: 20.355
+iteration: 321. success rate: 0.98. Total 228. Time: 19.376
+iteration: 322. success rate: 0.93. Total 228. Time: 21.044
+iteration: 323. success rate: 0.93. Total 228. Time: 20.191
+iteration: 324. success rate: 0.97. Total 228. Time: 19.86
+iteration: 325. success rate: 0.91. Total 228. Time: 16.977
+iteration: 326. success rate: 0.94. Total 228. Time: 22.033
+iteration: 327. success rate: 0.93. Total 228. Time: 20.948
+iteration: 328. success rate: 0.96. Total 228. Time: 21.332
+iteration: 329. success rate: 0.97. Total 228. Time: 20.496
+iteration: 330. success rate: 0.9. Total 228. Time: 22.378
+evaluating model:
+evaluation success rate: 0.03. time: 180.968
+iteration: 331. success rate: 0.94. Total 228. Time: 21.153
+iteration: 332. success rate: 0.94. Total 228. Time: 20.845
+iteration: 333. success rate: 0.93. Total 228. Time: 21.055
+iteration: 334. success rate: 0.98. Total 228. Time: 20.239
+iteration: 335. success rate: 0.93. Total 228. Time: 20.936
+iteration: 336. success rate: 0.88. Total 228. Time: 20.516
+iteration: 337. success rate: 0.96. Total 228. Time: 20.892
+iteration: 338. success rate: 0.87. Total 228. Time: 18.39
+iteration: 339. success rate: 0.93. Total 228. Time: 17.821
+iteration: 340. success rate: 0.94. Total 228. Time: 19.666
+iteration: 341. success rate: 0.97. Total 228. Time: 18.319
+iteration: 342. success rate: 0.96. Total 228. Time: 20.243
+iteration: 343. success rate: 0.96. Total 228. Time: 20.338
+iteration: 344. success rate: 0.93. Total 228. Time: 21.264
+iteration: 345. success rate: 0.89. Total 228. Time: 14.953
+evaluating model:
+evaluation success rate: 0.05. time: 180.365
+iteration: 346. success rate: 0.91. Total 228. Time: 21.886
+iteration: 347. success rate: 0.98. Total 228. Time: 19.796
+iteration: 348. success rate: 0.96. Total 228. Time: 21.267
+iteration: 349. success rate: 0.93. Total 228. Time: 20.852
+iteration: 350. success rate: 0.94. Total 228. Time: 19.561
+iteration: 351. success rate: 0.89. Total 228. Time: 19.486
+iteration: 352. success rate: 0.86. Total 228. Time: 20.87
+iteration: 353. success rate: 0.92. Total 228. Time: 20.484
+iteration: 354. success rate: 0.9. Total 228. Time: 20.873
+iteration: 355. success rate: 0.9. Total 228. Time: 21.564
+iteration: 356. success rate: 0.96. Total 228. Time: 19.621
+iteration: 357. success rate: 0.94. Total 228. Time: 20.03
+iteration: 358. success rate: 0.91. Total 228. Time: 20.999
+iteration: 359. success rate: 0.93. Total 228. Time: 23.483
+iteration: 360. success rate: 0.95. Total 228. Time: 22.08
+evaluating model:
+evaluation success rate: 0.05. time: 178.462
+iteration: 361. success rate: 0.92. Total 228. Time: 18.211
+iteration: 362. success rate: 0.91. Total 228. Time: 21.339
+iteration: 363. success rate: 0.87. Total 228. Time: 20.763
+iteration: 364. success rate: 0.96. Total 228. Time: 20.432
+iteration: 365. success rate: 0.99. Total 228. Time: 15.036
+iteration: 366. success rate: 0.95. Total 228. Time: 20.199
+iteration: 367. success rate: 0.9. Total 228. Time: 21.341
+iteration: 368. success rate: 0.91. Total 228. Time: 20.369
+iteration: 369. success rate: 0.89. Total 228. Time: 22.795
+iteration: 370. success rate: 0.94. Total 228. Time: 20.13
+iteration: 371. success rate: 0.95. Total 228. Time: 20.894
+iteration: 372. success rate: 0.99. Total 228. Time: 21.301
+iteration: 373. success rate: 0.99. Total 228. Time: 19.789
+iteration: 374. success rate: 0.92. Total 228. Time: 22.357
+iteration: 375. success rate: 0.94. Total 228. Time: 20.862
+evaluating model:
+evaluation success rate: 0.07. time: 178.371
+iteration: 376. success rate: 0.92. Total 228. Time: 20.753
+iteration: 377. success rate: 0.92. Total 228. Time: 19.34
+iteration: 378. success rate: 0.93. Total 228. Time: 19.615
+iteration: 379. success rate: 0.95. Total 228. Time: 19.677
+iteration: 380. success rate: 0.93. Total 228. Time: 21.176
+iteration: 381. success rate: 0.97. Total 228. Time: 21.869
+iteration: 382. success rate: 0.92. Total 228. Time: 21.33
+iteration: 383. success rate: 0.94. Total 228. Time: 20.152
+iteration: 384. success rate: 0.91. Total 228. Time: 19.986
+iteration: 385. success rate: 0.95. Total 228. Time: 20.432
+iteration: 386. success rate: 0.92. Total 228. Time: 20.605
+iteration: 387. success rate: 0.9. Total 228. Time: 17.903
+iteration: 388. success rate: 0.95. Total 228. Time: 19.13
+iteration: 389. success rate: 0.94. Total 228. Time: 20.95
+iteration: 390. success rate: 0.89. Total 228. Time: 21.151
+evaluating model:
+evaluation success rate: 0.07. time: 173.898
+iteration: 391. success rate: 0.93. Total 228. Time: 19.441
+iteration: 392. success rate: 0.94. Total 228. Time: 20.679
+iteration: 393. success rate: 0.97. Total 228. Time: 20.407
+iteration: 394. success rate: 0.96. Total 228. Time: 19.754
+iteration: 395. success rate: 0.98. Total 228. Time: 20.155
+iteration: 396. success rate: 0.97. Total 228. Time: 20.019
+iteration: 397. success rate: 0.97. Total 228. Time: 20.81
+iteration: 398. success rate: 0.97. Total 228. Time: 18.507
+iteration: 399. success rate: 0.96. Total 228. Time: 21.632
+iteration: 400. success rate: 1.0. Total 228. Time: 17.223
+iteration: 401. success rate: 0.95. Total 228. Time: 22.185
+iteration: 402. success rate: 0.89. Total 228. Time: 19.718
+iteration: 403. success rate: 0.89. Total 228. Time: 16.551
+iteration: 404. success rate: 0.95. Total 228. Time: 19.429
+iteration: 405. success rate: 0.95. Total 228. Time: 20.698
+evaluating model:
+evaluation success rate: 0.11. time: 176.706
+iteration: 406. success rate: 0.91. Total 228. Time: 21.166
+iteration: 407. success rate: 0.94. Total 228. Time: 20.603
+iteration: 408. success rate: 0.89. Total 228. Time: 20.225
+iteration: 409. success rate: 0.95. Total 228. Time: 20.486
+iteration: 410. success rate: 0.92. Total 228. Time: 21.597
+iteration: 411. success rate: 0.99. Total 228. Time: 18.601
+iteration: 412. success rate: 0.91. Total 228. Time: 19.496
+iteration: 413. success rate: 0.97. Total 228. Time: 16.741
+iteration: 414. success rate: 0.93. Total 228. Time: 18.028
+iteration: 415. success rate: 0.94. Total 228. Time: 17.674
+iteration: 416. success rate: 1.0. Total 228. Time: 19.667
+iteration: 417. success rate: 0.96. Total 228. Time: 19.669
+iteration: 418. success rate: 0.93. Total 228. Time: 15.212
+iteration: 419. success rate: 0.93. Total 228. Time: 21.271
+iteration: 420. success rate: 0.96. Total 228. Time: 17.798
+evaluating model:
+evaluation success rate: 0.15. time: 180.621
+iteration: 421. success rate: 0.97. Total 228. Time: 21.335
+iteration: 422. success rate: 0.98. Total 228. Time: 20.896
+iteration: 423. success rate: 0.98. Total 228. Time: 20.796
+iteration: 424. success rate: 1.0. Total 228. Time: 18.77
+iteration: 425. success rate: 0.99. Total 228. Time: 21.463
+iteration: 426. success rate: 0.94. Total 228. Time: 20.198
+iteration: 427. success rate: 0.99. Total 228. Time: 18.745
+iteration: 428. success rate: 0.98. Total 228. Time: 18.766
+iteration: 429. success rate: 0.95. Total 228. Time: 17.966
+iteration: 430. success rate: 0.98. Total 228. Time: 20.752
+iteration: 431. success rate: 0.95. Total 228. Time: 18.668
+iteration: 432. success rate: 0.95. Total 228. Time: 16.388
+iteration: 433. success rate: 0.98. Total 228. Time: 20.453
+iteration: 434. success rate: 1.0. Total 228. Time: 19.794
+iteration: 435. success rate: 0.97. Total 228. Time: 18.939
+evaluating model:
+evaluation success rate: 0.1. time: 179.508
+iteration: 436. success rate: 1.0. Total 228. Time: 20.407
+iteration: 437. success rate: 0.98. Total 228. Time: 19.696
+iteration: 438. success rate: 0.98. Total 228. Time: 21.391
+iteration: 439. success rate: 0.96. Total 228. Time: 20.889
+iteration: 440. success rate: 0.98. Total 228. Time: 19.493
+iteration: 441. success rate: 0.99. Total 228. Time: 19.981
+iteration: 442. success rate: 0.96. Total 228. Time: 19.757
+iteration: 443. success rate: 0.98. Total 228. Time: 18.917
+iteration: 444. success rate: 0.98. Total 228. Time: 18.342
+iteration: 445. success rate: 0.94. Total 228. Time: 20.451
+iteration: 446. success rate: 1.0. Total 228. Time: 19.765
+iteration: 447. success rate: 1.0. Total 228. Time: 20.189
+iteration: 448. success rate: 0.98. Total 228. Time: 18.383
+iteration: 449. success rate: 0.98. Total 228. Time: 19.52
+iteration: 450. success rate: 0.97. Total 228. Time: 20.995
+evaluating model:
+evaluation success rate: 0.12. time: 175.179
+iteration: 451. success rate: 0.98. Total 228. Time: 17.852
+iteration: 452. success rate: 0.98. Total 228. Time: 20.107
+iteration: 453. success rate: 1.0. Total 228. Time: 20.54
+iteration: 454. success rate: 0.98. Total 228. Time: 19.713
+iteration: 455. success rate: 0.98. Total 228. Time: 20.04
+iteration: 456. success rate: 0.99. Total 228. Time: 20.523
+iteration: 457. success rate: 0.95. Total 228. Time: 21.708
+iteration: 458. success rate: 0.99. Total 228. Time: 20.063
+iteration: 459. success rate: 0.97. Total 228. Time: 19.899
+iteration: 460. success rate: 0.96. Total 228. Time: 21.024
+iteration: 461. success rate: 0.97. Total 228. Time: 18.203
+iteration: 462. success rate: 0.98. Total 228. Time: 19.726
+iteration: 463. success rate: 0.97. Total 228. Time: 21.486
+iteration: 464. success rate: 0.98. Total 228. Time: 20.535
+iteration: 465. success rate: 0.98. Total 228. Time: 20.58
+evaluating model:
+evaluation success rate: 0.1. time: 177.558
+iteration: 466. success rate: 0.96. Total 228. Time: 19.026
+iteration: 467. success rate: 0.98. Total 228. Time: 20.799
+iteration: 468. success rate: 0.97. Total 228. Time: 19.193
+iteration: 469. success rate: 0.99. Total 228. Time: 19.349
+iteration: 470. success rate: 1.0. Total 228. Time: 19.849
+iteration: 471. success rate: 0.99. Total 228. Time: 19.234
+iteration: 472. success rate: 0.98. Total 228. Time: 20.678
+iteration: 473. success rate: 0.97. Total 228. Time: 18.226
+iteration: 474. success rate: 0.98. Total 228. Time: 20.388
+iteration: 475. success rate: 1.0. Total 228. Time: 19.908
+iteration: 476. success rate: 0.97. Total 228. Time: 19.661
+iteration: 477. success rate: 0.98. Total 228. Time: 19.649
+iteration: 478. success rate: 0.98. Total 228. Time: 20.114
+iteration: 479. success rate: 0.98. Total 228. Time: 16.098
+iteration: 480. success rate: 0.96. Total 228. Time: 20.541
+evaluating model:
+evaluation success rate: 0.05. time: 184.16
+iteration: 481. success rate: 0.98. Total 228. Time: 22.359
+iteration: 482. success rate: 0.97. Total 228. Time: 20.543
+iteration: 483. success rate: 0.97. Total 228. Time: 20.448
+iteration: 484. success rate: 0.98. Total 228. Time: 20.766
+iteration: 485. success rate: 1.0. Total 228. Time: 20.089
+iteration: 486. success rate: 0.98. Total 228. Time: 20.873
+iteration: 487. success rate: 0.97. Total 228. Time: 17.619
+iteration: 488. success rate: 0.99. Total 228. Time: 20.475
+iteration: 489. success rate: 0.98. Total 228. Time: 20.227
+iteration: 490. success rate: 0.95. Total 228. Time: 18.905
+iteration: 491. success rate: 0.99. Total 228. Time: 20.377
+iteration: 492. success rate: 0.98. Total 228. Time: 20.005
+iteration: 493. success rate: 0.98. Total 228. Time: 18.858
+iteration: 494. success rate: 0.97. Total 228. Time: 19.557
+iteration: 495. success rate: 0.98. Total 228. Time: 18.098
+evaluating model:
+evaluation success rate: 0.08. time: 180.865
+iteration: 496. success rate: 1.0. Total 228. Time: 19.632
+iteration: 497. success rate: 0.97. Total 228. Time: 19.529
+iteration: 498. success rate: 0.97. Total 228. Time: 20.995
+iteration: 499. success rate: 0.98. Total 228. Time: 19.89
+iteration: 500. success rate: 0.99. Total 228. Time: 19.276
+iteration: 501. success rate: 0.98. Total 228. Time: 20.248
+iteration: 502. success rate: 0.97. Total 228. Time: 18.948
+iteration: 503. success rate: 1.0. Total 228. Time: 20.212
+iteration: 504. success rate: 0.98. Total 228. Time: 19.243
+iteration: 505. success rate: 0.99. Total 228. Time: 19.512
+iteration: 506. success rate: 0.99. Total 228. Time: 21.003
+iteration: 507. success rate: 1.0. Total 228. Time: 19.456
+iteration: 508. success rate: 0.98. Total 228. Time: 19.073
+iteration: 509. success rate: 0.99. Total 228. Time: 18.564
+iteration: 510. success rate: 0.97. Total 228. Time: 20.444
+evaluating model:
+evaluation success rate: 0.1. time: 178.346
+iteration: 511. success rate: 0.98. Total 228. Time: 18.712
+iteration: 512. success rate: 0.99. Total 228. Time: 19.363
+iteration: 513. success rate: 0.97. Total 228. Time: 19.672
+iteration: 514. success rate: 1.0. Total 228. Time: 19.9
+iteration: 515. success rate: 0.98. Total 228. Time: 19.847
+iteration: 516. success rate: 0.97. Total 228. Time: 19.872
+iteration: 517. success rate: 0.99. Total 228. Time: 19.914
+iteration: 518. success rate: 0.96. Total 228. Time: 18.514
+iteration: 519. success rate: 0.95. Total 228. Time: 20.68
+iteration: 520. success rate: 0.98. Total 228. Time: 20.554
+iteration: 521. success rate: 0.98. Total 228. Time: 19.64
