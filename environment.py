@@ -93,7 +93,7 @@ class Environment:
                            'droneworld_simple' : ['size of grid']}
         self.directory = directory
         
-    def initialize(self, name, params, n_history, gamma, dense_reward = None, idx=0):
+    def initialize(self, name, params, n_history, gamma = 0.99, dense_reward = None, idx=0):
         self.n_history = n_history
         self.params = params
         self.dense_reward = dense_reward

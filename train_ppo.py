@@ -27,8 +27,8 @@ if __name__ == '__main__':
     argparser.add_argument('-n_episodes', type=int, default=100)
     argparser.add_argument('-save_freq', type=int, default=10)
     argparser.add_argument('-eval_freq', type=int, default=15)
-    argparser.add_argument('-eval_k', type=int, default=100)
-    argparser.add_argument('-n_iterations', type=int, default=1000)
+    argparser.add_argument('-eval_k', type=int, default=50)
+    argparser.add_argument('-n_iterations', type=int, default=500)
     argparser.add_argument('-batch_size', type=int, default=300)
     argparser.add_argument('-use_attention', default=0)
     argparser.add_argument('-dense_reward', type=str, default="hFF")
@@ -51,83 +51,83 @@ if __name__ == '__main__':
     eval_env = environment.Environment(directory)
     print(problem)
     if problem == 'satellite':
-        env.initialize('satellite',[[1,4],[1,4],[1,4],[1,4],[2,4]],n_history)
-        eval_env.initialize('satellite',[[7,8],[6,7],[4,5],[8,9],[15,16]],n_history)
+        env.initialize('satellite',[[1,4],[1,4],[1,4],[1,4],[2,4]],n_history, gamma, dense_reward)
+        eval_env.initialize('satellite',[[7,8],[6,7],[4,5],[8,9],[15,16]],n_history, gamma, dense_reward)
     if problem == 'blocks4':
-        env.initialize('blocks4',[[4,5]],n_history)
-        eval_env.initialize('blocks4',[[10,11]],n_history)
+        env.initialize('blocks4',[[4,5]],n_history, gamma, dense_reward)
+        eval_env.initialize('blocks4',[[10,11]],n_history, gamma, dense_reward)
     if problem == 'blocksmulti':
-        env.initialize('blocksmulti',[[5,6]],n_history)
-        eval_env.initialize('blocksmulti',[[10,11]],n_history)
+        env.initialize('blocksmulti',[[5,6]],n_history, gamma, dense_reward)
+        eval_env.initialize('blocksmulti',[[10,11]],n_history, gamma, dense_reward)
     if problem == 'logistics':
-        env.initialize('logistics',[[2,4],[2,4],[2,4],[1,3]],n_history)
-        eval_env.initialize('logistics',[[3,4],[6,7],[3,4],[6,7]],n_history)
+        env.initialize('logistics',[[2,4],[2,4],[2,4],[1,3]],n_history, gamma, dense_reward)
+        eval_env.initialize('logistics',[[3,4],[6,7],[3,4],[6,7]],n_history, gamma, dense_reward)
     if problem == 'gripper':
-        env.initialize('gripper',[[3,4]],n_history)
-        eval_env.initialize('gripper',[[15,16]],n_history)
+        env.initialize('gripper',[[3,4]],n_history, gamma, dense_reward)
+        eval_env.initialize('gripper',[[15,16]],n_history, gamma, dense_reward)
     if problem == 'ferry':
-        env.initialize('ferry',[[3,5],[2,4]],n_history)
-        eval_env.initialize('ferry',[[9,10],[20,21]],n_history)
+        env.initialize('ferry',[[3,5],[2,4]],n_history, gamma, dense_reward)
+        eval_env.initialize('ferry',[[9,10],[20,21]],n_history, gamma, dense_reward)
     if problem == 'depots':
-        env.initialize('depots',[[1,2],[2,3],[2,3],[3,5],[2,4],[3,5]],n_history)
-        eval_env.initialize('depots',[[5,6],[5,6],[5,6],[5,6],[5,6],[5,6]],n_history)
+        env.initialize('depots',[[1,2],[2,3],[2,3],[3,5],[2,4],[3,5]],n_history, gamma, dense_reward)
+        eval_env.initialize('depots',[[5,6],[5,6],[5,6],[5,6],[5,6],[5,6]],n_history, gamma, dense_reward)
     if problem == 'hanoi':
-        env.initialize('hanoi',[[3,5]],n_history)
-        eval_env.initialize('hanoi',[[7,9]],n_history)
+        env.initialize('hanoi',[[3,5]],n_history, gamma, dense_reward)
+        eval_env.initialize('hanoi',[[7,9]],n_history, gamma, dense_reward)
     if problem == 'grippers':
-        env.initialize('grippers',[[2,4],[2,4],[5,6]],n_history)
-        eval_env.initialize('grippers',[[7,8],[7,8],[10,11]],n_history)
+        env.initialize('grippers',[[2,4],[2,4],[5,6]],n_history, gamma, dense_reward)
+        eval_env.initialize('grippers',[[7,8],[7,8],[10,11]],n_history, gamma, dense_reward)
     if problem == 'ascensor':
-        env.initialize('ascensor',[[6,10],[2,3],[1,2]],n_history)
-        eval_env.initialize('ascensor',[[8,12],[5,10],[1,3]],n_history)
+        env.initialize('ascensor',[[6,10],[2,3],[1,2]],n_history, gamma, dense_reward)
+        eval_env.initialize('ascensor',[[8,12],[5,10],[1,3]],n_history, gamma, dense_reward)
     if problem == 'rovers_collect':
-        env.initialize('rovers_collect',[[5,10]],n_history)
-        eval_env.initialize('rovers_collect',[[10,20]],n_history)
+        env.initialize('rovers_collect',[[5,10]],n_history, gamma, dense_reward)
+        eval_env.initialize('rovers_collect',[[10,20]],n_history, gamma, dense_reward)
     if problem == 'rovers_rock':
-        env.initialize('rovers_rock',[[5,10]],n_history)
-        eval_env.initialize('rovers_rock',[[10,20]],n_history)
+        env.initialize('rovers_rock',[[5,10]],n_history, gamma, dense_reward)
+        eval_env.initialize('rovers_rock',[[10,20]],n_history, gamma, dense_reward)
     if problem == 'rovers_soil':
-        env.initialize('rovers_soil',[[5,10]],n_history)
-        eval_env.initialize('rovers_soil',[[10,20]],n_history)
+        env.initialize('rovers_soil',[[5,10]],n_history, gamma, dense_reward)
+        eval_env.initialize('rovers_soil',[[10,20]],n_history, gamma, dense_reward)
     if problem == 'rovers':
-        env.initialize('rovers',[[5,10]],n_history)
-        eval_env.initialize('rovers',[[10,20]],n_history)
+        env.initialize('rovers',[[5,10]],n_history, gamma, dense_reward)
+        eval_env.initialize('rovers',[[10,20]],n_history, gamma, dense_reward)
     if problem == 'log1by1':
-        env.initialize('log1by1',[[3,7],[2,8]],n_history)
-        eval_env.initialize('log1by1',[[3,7],[2,8]],n_history)
+        env.initialize('log1by1',[[3,7],[2,8]],n_history, gamma, dense_reward)
+        eval_env.initialize('log1by1',[[3,7],[2,8]],n_history, gamma, dense_reward)
     if problem == 'log':
-        env.initialize('log',[[3,7],[2,8]],n_history)
-        eval_env.initialize('log',[[3,7],[2,8]],n_history)
+        env.initialize('log',[[3,7],[2,8]],n_history, gamma, dense_reward)
+        eval_env.initialize('log',[[3,7],[2,8]],n_history, gamma, dense_reward)
     if problem == 'log1forall':
-        env.initialize('log1forall',[[3,7],[2,8]],n_history)
-        eval_env.initialize('log1forall',[[3,7],[2,8]],n_history)
+        env.initialize('log1forall',[[3,7],[2,8]],n_history, gamma, dense_reward)
+        eval_env.initialize('log1forall',[[3,7],[2,8]],n_history, gamma, dense_reward)
     if problem == 'logpure':
-        env.initialize('logpure',[[3,7],[2,8]],n_history)
-        eval_env.initialize('logpure',[[9,10],[20,21]],n_history)
+        env.initialize('logpure',[[3,7],[2,8]],n_history, gamma, dense_reward)
+        eval_env.initialize('logpure',[[9,10],[20,21]],n_history, gamma, dense_reward)
     if problem == 'blockslimited':
-        env.initialize('blockslimited',[[5,6]],n_history)
-        eval_env.initialize('blockslimited',[[5,10]],n_history)
+        env.initialize('blockslimited',[[5,6]],n_history, gamma, dense_reward)
+        eval_env.initialize('blockslimited',[[5,10]],n_history, gamma, dense_reward)
     if problem == 'blocksunstack':
-        env.initialize('blocksunstack',[[5,6]],n_history)
-        eval_env.initialize('blocksunstack',[[5,10]],n_history)
+        env.initialize('blocksunstack',[[5,6]],n_history, gamma, dense_reward)
+        eval_env.initialize('blocksunstack',[[5,10]],n_history, gamma, dense_reward)
     if problem == 'kitchenbyone':
-        env.initialize('kitchenbyone',[[2,5],[2,4],[1,4]],n_history)
-        eval_env.initialize('kitchenbyone',[[2,5],[2,4],[1,4]],n_history)
+        env.initialize('kitchenbyone',[[2,5],[2,4],[1,4]],n_history, gamma, dense_reward)
+        eval_env.initialize('kitchenbyone',[[2,5],[2,4],[1,4]],n_history, gamma, dense_reward)
     if problem == 'kitchenloadall':
-        env.initialize('kitchenloadall',[[2,5],[2,4],[1,4]],n_history)
-        eval_env.initialize('kitchenloadall',[[2,5],[2,4],[1,4]],n_history)
+        env.initialize('kitchenloadall',[[2,5],[2,4],[1,4]],n_history, gamma, dense_reward)
+        eval_env.initialize('kitchenloadall',[[2,5],[2,4],[1,4]],n_history, gamma, dense_reward)
     if problem == 'kitchen':
-        env.initialize('kitchen',[[2,5],[2,4],[1,4]],n_history)
-        eval_env.initialize('kitchen',[[2,5],[2,4],[1,4]],n_history)
+        env.initialize('kitchen',[[2,5],[2,4],[1,4]],n_history, gamma, dense_reward)
+        eval_env.initialize('kitchen',[[2,5],[2,4],[1,4]],n_history, gamma, dense_reward)
     if problem == 'floortile':
-        env.initialize('floortile',[[1,4],[2,4]],n_history)
-        eval_env.initialize('floortile',[[3,6],[3,6]],n_history)
+        env.initialize('floortile',[[1,4],[2,4]],n_history, gamma, dense_reward)
+        eval_env.initialize('floortile',[[3,6],[3,6]],n_history, gamma, dense_reward)
     if problem == 'openstacks':
-        env.initialize('openstacks',[[3,10]],n_history)
-        eval_env.initialize('openstacks',[[3,10]],n_history)
+        env.initialize('openstacks',[[3,10]],n_history, gamma, dense_reward)
+        eval_env.initialize('openstacks',[[3,10]],n_history, gamma, dense_reward)
     if problem == 'openstacks2':
-        env.initialize('openstacks2',[[3,10]],n_history)
-        eval_env.initialize('openstacks2',[[3,10]],n_history)
+        env.initialize('openstacks2',[[3,10]],n_history, gamma, dense_reward)
+        eval_env.initialize('openstacks2',[[3,10]],n_history, gamma, dense_reward)
     if problem == 'droneworld_simple':
         env.initialize('droneworld_simple',[[4,5]],n_history, gamma, dense_reward)
         eval_env.initialize('droneworld_simple',[[6,7]],n_history, gamma, dense_reward)
@@ -161,6 +161,7 @@ if __name__ == '__main__':
         file.write('eval_K: {} \n'.format(eval_K))
         file.write('batch_size: {} \n'.format(batch_size))
         file.write('use_attention: {} \n'.format(args.use_attention))
+        file.write('dense_reward: {} \n'.format(args.dense_reward))
     
     best_eval_score = 0
     
@@ -174,10 +175,10 @@ if __name__ == '__main__':
         log_data, step_count = alg.run_episode()
         t2 = time()
         
-        success_rate = log_data['Iteration_Success_Rate'][-1][0]
+        success_rate = log_data['Iteration_AVG_Return'][-1][0]
         total = log_data['Num_total_actions'][0]
 
-        print('iteration: {}. success rate: {}. Total {}. Time: {}. AVG Steps: {}'.format( i, round(success_rate,3),total, round(t2-t1,3), round(step_count/args.n_episodes,2)))
+        print('iteration: {}. AVG return: {}. Total {}. Time: {}. AVG Steps: {}'.format( i, round(success_rate,3),total, round(t2-t1,3), round(step_count/args.n_episodes,2)))
         
         for key in log_data.keys():
             items = log_data[key]
@@ -192,13 +193,13 @@ if __name__ == '__main__':
         if i % save_freq == 0:
             torch.save(alg.model.state_dict(),path + '/PPO_model.pt')
         
-        if i % eval_freq == 0:
+        if i % eval_freq == 0 and i != 0:
             print('evaluating model:')
             t1 = time()
             eval_sr, eval_step = alg.eval_model(eval_K)
             t2 = time()
-            print('evaluation success rate: {}. time: {} AVG Steps : {}'.format(eval_sr,round(t2-t1,3), round(eval_step/eval_K, 2)))
-            writer.add_scalar('Eval_Success_Rate', eval_sr, alg.eval_iteration_count - 1)
+            print('evaluation AVG return: {}. time: {} AVG Steps : {}'.format(eval_sr,round(t2-t1,3), round(eval_step/eval_K, 2)))
+            writer.add_scalar('Eval_AVG_Return', eval_sr, alg.eval_iteration_count - 1)
             writer.add_scalar('Eval_AVG_Steps', round(eval_step/eval_K,2), alg.eval_iteration_count -1)
                         
             if eval_sr > best_eval_score:

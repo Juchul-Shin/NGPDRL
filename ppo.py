@@ -58,6 +58,7 @@ class PPO:
         self.env = env
         self.eval_env = eval_env
         self.device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')   
+        print('device == {}'.format(self.device))
         hid = 256
         glob_in, node_in, edge_in = env.get_dims()
 
@@ -253,7 +254,7 @@ class PPO:
         
     def run_episode(self):
         self.log_data = dict(Mean_Episode_Entropy=[], 
-                             Iteration_Success_Rate=[],
+                             Iteration_AVG_Return=[],
                              Episode_Return=[],
                              Num_Optimization_Steps=[],
                              Mean_TD_Error=[],
@@ -273,7 +274,7 @@ class PPO:
         num_opt_iters = self.update_model()
         self.scheduler.step()
         
-        self.log_data['Iteration_Success_Rate'].append((mean_return, self.iteration_count))
+        self.log_data['Iteration_AVG_Return'].append((mean_return, self.iteration_count))
         self.log_data['Num_Optimization_Steps'].append((num_opt_iters, self.iteration_count))
 
         
