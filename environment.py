@@ -8,7 +8,7 @@ sys.path.append(directory + '/pyperplan/pyperplan')
 
 
 from search import searchspace
-from heuristics.relaxation import hFFHeuristic
+from heuristics.relaxation import hFFHeuristic, hAddHeuristic, hMaxHeuristic
 from planner import _parse, _ground
 import numpy as np
 import torch
@@ -288,13 +288,22 @@ class Environment:
             if done == False:
                 break
         self.actions = [x for x,y in self.task.get_successor_states(self.state)]
-        
+
         heuristic = hFFHeuristic(self.heuristic_task)
         (rh, rplan) = heuristic.calc_h_with_plan(searchspace.make_root_node(self.heuristic_task.initial_state))
         if rh == float('inf'):
             rh = 50
         self.max_time = int(rh*5)
-        
+        self.prev_potential = (self.gamma ** rh - 1)/(1-self.gamma)
+        if (self.dense_reward == 'hAdd'):
+            heuristic = hAddHeuristic(self.heuristic_task)
+            h = heuristic(searchspace.make_root_node(self.heuristic_task.initial_state))
+            self.prev_potential = (self.gamma ** h - 1)/(1-self.gamma)
+        if (self.dense_reward == 'hMax'):
+            heuristic = hAddHeuristic(self.heuristic_task)
+            h = heuristic(searchspace.make_root_node(self.heuristic_task.initial_state))
+            self.prev_potential = (self.gamma ** h - 1)/(1-self.gamma)
+
         self.objects = dict()
         for i, name in enumerate(self.problem.objects.keys()):
             self.objects[name] = i
@@ -369,21 +378,36 @@ class Environment:
         G = self.get_actions(G)
         self.g = G.clone()
         self.depth += 1
-        if self.dense_reward is None:
+        if self.dense_reward == '':
             if done == True:
-                reward = 0.0
+                reward = 100.0
             else:
                 reward = -1.0
         else:
             if done == True:
-                reward = 0.0
+                reward = 100.0
             else:
                 if (self.dense_reward == 'hFF'):
                     heuristic = hFFHeuristic(self.task)
                     h, _ = heuristic.calc_h_with_plan(searchspace.make_root_node(self.state & self.task.facts))
                     #h = heuristic.calc_goal_h()
-                    reward = (self.gamma ** h - 1)/(1-self.gamma)
-
+                    new_potential = (self.gamma ** h - 1)/(1-self.gamma)
+                    reward = -1.0 + (self.gamma * new_potential) - self.prev_potential
+                    self.prev_potential = new_potential
+                if (self.dense_reward == 'hAdd'):
+                    heuristic = hAddHeuristic(self.task)
+                    h = heuristic(searchspace.make_root_node(self.state & self.task.facts))
+                    #h = heuristic.calc_goal_h()
+                    new_potential = (self.gamma ** h - 1)/(1-self.gamma)
+                    reward = -1.0 + (self.gamma * new_potential) - self.prev_potential
+                    self.prev_potential = new_potential
+                if (self.dense_reward == 'hMax'):
+                    heuristic = hMaxHeuristic(self.task)
+                    h = heuristic(searchspace.make_root_node(self.state & self.task.facts))
+                    #h = heuristic.calc_goal_h()
+                    new_potential = (self.gamma ** h - 1)/(1-self.gamma)
+                    reward = -1.0 + (self.gamma * new_potential) - self.prev_potential
+                    self.prev_potential = new_potential
 
         return G, self.actions, reward, done
 

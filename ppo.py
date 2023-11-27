@@ -98,6 +98,7 @@ class PPO:
         vals = []
         data_list = []
         mean_h = 0
+        success = 0
         for t in range(self.env.max_time):
             X = make_batch([G.clone()]).to(self.device)
             pi, val = self.old_model(X)
@@ -120,6 +121,7 @@ class PPO:
             G = new_G.clone()
             self.step_count += 1
             if done:
+                success += 1
                 break
         
         R = get_returns(rews, self.gamma)
@@ -132,7 +134,7 @@ class PPO:
         self.log_data['Num_total_actions'].append(len(self.total_actions))
 
         self.episode_count += 1
-        return sum_r
+        return sum_r, success
                 
     
     def eval_model_(self):
@@ -140,6 +142,7 @@ class PPO:
         G, actions, reward, done = self.eval_env.reset()
         sum_r = 0
         steps = 0
+        success = 0
         for t in range(self.eval_env.max_time):
             X = make_batch([G.clone()]).to(self.device)
             
@@ -154,21 +157,24 @@ class PPO:
             G = new_G.clone()
             steps += 1
             if done:
+                success += 1
                 break
         self.eval_episode_count += 1
-        return sum_r, steps
+        return sum_r, steps, success
     
     
     def eval_model(self,K):
-        success_rate = 0.0
+        total_return = 0.0
+        total_success = 0
         eval_steps = 0
         for i in range(K):
-            ret, steps = self.eval_model_()
-            success_rate += ret
+            ret, steps, success = self.eval_model_()
+            total_return += ret
             eval_steps += steps
+            total_success += success
         success_rate = success_rate/K
         self.eval_iteration_count += 1
-        return success_rate, eval_steps
+        return success_rate/K, eval_steps, success_rate
     
     
     def update_model(self):
@@ -254,7 +260,7 @@ class PPO:
         
     def run_episode(self):
         self.log_data = dict(Mean_Episode_Entropy=[], 
-                             Iteration_AVG_Return=[],
+                             Success_Rate=[],
                              Episode_Return=[],
                              Num_Optimization_Steps=[],
                              Mean_TD_Error=[],
@@ -266,18 +272,18 @@ class PPO:
         self.step_count = 0
         mean_return = 0.0
         for i in range(self.num_episodes):
-            tot_return = self.run_episode_()
+            tot_return, num_success = self.run_episode_()
             mean_return = mean_return + tot_return                
         mean_return = mean_return/float(self.num_episodes)
+        success_rate = num_success/float(self.num_episodes)
         
         # Update policy
         num_opt_iters = self.update_model()
         self.scheduler.step()
         
-        self.log_data['Iteration_AVG_Return'].append((mean_return, self.iteration_count))
+        self.log_data['Success_Rate'].append((success_rate, self.iteration_count))
         self.log_data['Num_Optimization_Steps'].append((num_opt_iters, self.iteration_count))
 
-        
         self.iteration_count += 1
         
         return self.log_data, self.step_count

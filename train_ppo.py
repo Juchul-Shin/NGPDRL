@@ -175,10 +175,10 @@ if __name__ == '__main__':
         log_data, step_count = alg.run_episode()
         t2 = time()
         
-        success_rate = log_data['Iteration_AVG_Return'][-1][0]
+        success_rate = log_data['Success_Rate'][-1][0]
         total = log_data['Num_total_actions'][0]
 
-        print('iteration: {}. AVG return: {}. Total {}. Time: {}. AVG Steps: {}'.format( i, round(success_rate,3),total, round(t2-t1,3), round(step_count/args.n_episodes,2)))
+        print('iteration: {}. Success_Rate: {}. Total {}. Time: {}. AVG Steps: {}'.format( i, round(success_rate,3),total, round(t2-t1,3), round(step_count/args.n_episodes,2)))
         
         for key in log_data.keys():
             items = log_data[key]
@@ -196,9 +196,9 @@ if __name__ == '__main__':
         if i % eval_freq == 0 and i != 0:
             print('evaluating model:')
             t1 = time()
-            eval_sr, eval_step = alg.eval_model(eval_K)
+            eval_mean_return, eval_step, eval_success_rate = alg.eval_model(eval_K)
             t2 = time()
-            print('evaluation AVG return: {}. time: {} AVG Steps : {}'.format(eval_sr,round(t2-t1,3), round(eval_step/eval_K, 2)))
+            print('evaluation AVG return: {}. success rate : {} time: {} AVG Steps : {}'.format(eval_mean_return, round(eval_success_rate,3) , round(t2-t1,3), round(eval_step/eval_K, 2)))
             writer.add_scalar('Eval_AVG_Return', eval_sr, alg.eval_iteration_count - 1)
             writer.add_scalar('Eval_AVG_Steps', round(eval_step/eval_K,2), alg.eval_iteration_count -1)
                         
