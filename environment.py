@@ -93,7 +93,7 @@ class Environment:
                            'droneworld_simple' : ['size of grid']}
         self.directory = directory
         
-    def initialize(self, name, params, n_history, gamma = 0.99, dense_reward = None, idx=0):
+    def initialize(self, name, params, n_history, gamma = 0.99, dense_reward = '', idx=0):
         self.n_history = n_history
         self.params = params
         self.dense_reward = dense_reward
@@ -295,6 +295,7 @@ class Environment:
             rh = 50
         self.max_time = int(rh*5)
         self.prev_potential = (self.gamma ** rh - 1)/(1-self.gamma)
+        self.prev_h = rh
         if (self.dense_reward == 'hAdd'):
             heuristic = hAddHeuristic(self.heuristic_task)
             h = heuristic(searchspace.make_root_node(self.heuristic_task.initial_state))
@@ -378,11 +379,16 @@ class Environment:
         G = self.get_actions(G)
         self.g = G.clone()
         self.depth += 1
+
+
+
+
+
         if self.dense_reward == '':
             if done == True:
-                reward = 100.0
+                reward = 1.0
             else:
-                reward = -1.0
+                reward = 0.0
         else:
             if done == True:
                 reward = 100.0
@@ -390,10 +396,16 @@ class Environment:
                 if (self.dense_reward == 'hFF'):
                     heuristic = hFFHeuristic(self.task)
                     h, _ = heuristic.calc_h_with_plan(searchspace.make_root_node(self.state & self.task.facts))
-                    #h = heuristic.calc_goal_h()
-                    new_potential = (self.gamma ** h - 1)/(1-self.gamma)
-                    reward = -1.0 + (self.gamma * new_potential) - self.prev_potential
-                    self.prev_potential = new_potential
+                    # new_potential = (self.gamma ** h - 1)/(1-self.gamma)
+                    # reward = -1.0 + (self.gamma * new_potential) - self.prev_potential
+                    # self.prev_potential = new_potential
+                    if (h < self.prev_h):
+                        reward = 1.
+                    elif (h == self.prev_h):
+                        reward = 0.
+                    else:
+                        reward = -1.
+                    self.prev_h = h
                 if (self.dense_reward == 'hAdd'):
                     heuristic = hAddHeuristic(self.task)
                     h = heuristic(searchspace.make_root_node(self.state & self.task.facts))

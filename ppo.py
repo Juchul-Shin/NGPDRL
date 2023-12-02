@@ -58,7 +58,6 @@ class PPO:
         self.env = env
         self.eval_env = eval_env
         self.device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')   
-        print('device == {}'.format(self.device))
         hid = 256
         glob_in, node_in, edge_in = env.get_dims()
 
@@ -121,7 +120,7 @@ class PPO:
             G = new_G.clone()
             self.step_count += 1
             if done:
-                success += 1
+                success = 1
                 break
         
         R = get_returns(rews, self.gamma)
@@ -141,7 +140,6 @@ class PPO:
         self.old_model.eval()
         G, actions, reward, done = self.eval_env.reset()
         sum_r = 0
-        steps = 0
         success = 0
         for t in range(self.eval_env.max_time):
             X = make_batch([G.clone()]).to(self.device)
@@ -155,26 +153,24 @@ class PPO:
             new_G, actions, reward, done = self.eval_env.fast_step(action)
             sum_r += reward
             G = new_G.clone()
-            steps += 1
             if done:
-                success += 1
+                success = 1
                 break
         self.eval_episode_count += 1
-        return sum_r, steps, success
+        return sum_r, success
     
     
     def eval_model(self,K):
         total_return = 0.0
         total_success = 0
-        eval_steps = 0
         for i in range(K):
-            ret, steps, success = self.eval_model_()
+            ret, success = self.eval_model_()
             total_return += ret
-            eval_steps += steps
             total_success += success
-        success_rate = success_rate/K
+        mean_return = total_return/K
         self.eval_iteration_count += 1
-        return success_rate/K, eval_steps, success_rate
+        success_rate = (float)(total_success)/(float)(K)
+        return mean_return, success_rate
     
     
     def update_model(self):
@@ -260,30 +256,29 @@ class PPO:
         
     def run_episode(self):
         self.log_data = dict(Mean_Episode_Entropy=[], 
-                             Success_Rate=[],
+                             Iteration_Success_Rate=[],
                              Episode_Return=[],
                              Num_Optimization_Steps=[],
                              Mean_TD_Error=[],
-                             Num_total_actions=[]
-                             )
+                             Num_total_actions=[])
         
         # Run episodes
         self.buffer.clean()
-        self.step_count = 0
         mean_return = 0.0
+        total_success = 0
         for i in range(self.num_episodes):
-            tot_return, num_success = self.run_episode_()
+            tot_return, success = self.run_episode_()
             mean_return = mean_return + tot_return                
+            total_success += success
         mean_return = mean_return/float(self.num_episodes)
-        success_rate = num_success/float(self.num_episodes)
-        
+        success_rate = float(total_success)/float(self.num_episodes)
+
         # Update policy
         num_opt_iters = self.update_model()
         self.scheduler.step()
         
-        self.log_data['Success_Rate'].append((success_rate, self.iteration_count))
+        self.log_data['Iteration_Success_Rate'].append((success_rate, self.iteration_count))
         self.log_data['Num_Optimization_Steps'].append((num_opt_iters, self.iteration_count))
-
         self.iteration_count += 1
         
-        return self.log_data, self.step_count
+        return self.log_data
